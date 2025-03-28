@@ -1,0 +1,297 @@
+{
+  "description": "RingEX Core™ package with Office Contract + RC CC Digital Edition Named Seat (USD) package -> upgrade by adding Engage Digital Standalone concurrent seat based (USD) package",
+  "comment": "'billingId' and 'packageId' are non-actual, used for correct start of the test with account generation",
+  "scenario": "ngbs(brand=1210,package=1231005v2,dlCount=30,numberType=TollFree)",
+  "billingId": "1192790005",
+  "packageId": "994223005",
+  "rcUserId": "71798339004",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractExtId": "Office_5_US",
+          "contractTerms": {
+            "initialTerm": [
+              "24"
+            ],
+            "renewalTerm": "24"
+          },
+          "ngbsPackageId": "994223005",
+          "products": [
+            {
+              "name": "Polycom VVX 450 Business IP Phone with 1 Expansion Module",
+              "dataName": "LC_HD_687",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "537.00",
+              "yourPrice": "537.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsFromBilling": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_32",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 30,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 30,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 30,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "25.00",
+              "yourPrice": "25.00",
+              "quantity": 31,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RingCentral Contact Center",
+      "packages": [
+        {
+          "name": "Digital Edition Named Seat (USD)",
+          "id": "800",
+          "version": "3",
+          "contract": "RCCC Contract",
+          "ngbsPackageId": "994224005",
+          "products": [
+            {
+              "name": "Contact Center Guide",
+              "dataName": "CC_RCCCGD_576",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Miscellaneous Add-ons",
+              "subgroup": "Guide",
+              "chargeTerm": "Monthly",
+              "price": "0.13",
+              "yourPrice": "0.13",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsFromBilling": [
+            {
+              "dataName": "CC_RCCCSEAT_1",
+              "chargeTerm": "Monthly",
+              "quantity": 5
+            },
+            {
+              "dataName": "CC_RCCCSEATO_2",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_ADDASO_4",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_MLTSO_5",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_MLTSRO_6",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_CRPCKG_30",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_RECEXPTO_656",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_DIRASSISTANCO_700",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_PRSOD1HO_586",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_PRSO15MO_587",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_RPRTVO_96",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_ASRO_98",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_DFIBSMSO_63",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_DFOBSMSO_64",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_ICIBL_121",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_ICIBTF_122",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_ICIBINT_123",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_ICOBLC_124",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_ICOBIC_125",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_ICOBDL_126",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_ICOBDINT_127",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            },
+            {
+              "dataName": "CC_ICOBLTF_128",
+              "chargeTerm": "Monthly",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packageFoldersUpgrade": [
+    {
+      "name": "Engage Digital Standalone",
+      "packages": [
+        {
+          "name": "Engage Digital Standalone concurrent seat based (USD)",
+          "id": "591",
+          "version": "3",
+          "contract": "ED Standalone Contract",
+          "products": [
+            {
+              "name": "Line of Credit for WhatsApp Business",
+              "dataName": "SA_LINECRWHATSUP_11",
+              "serviceName": "Engage Digital Standalone",
+              "group": "Add Ons",
+              "subgroup": "Extensions",
+              "chargeTerm": "One - Time",
+              "price": "1500.00",
+              "yourPrice": "1500.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

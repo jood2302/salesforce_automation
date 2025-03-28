@@ -1,0 +1,155 @@
+{
+  "description": "RingEX Advanced™ package with contract",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Advanced™",
+          "id": "1232005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "24"
+            ],
+            "renewalTerm": "36"
+          },
+          "products": [
+            {
+              "name": "Yealink W76P Cordless Phone with 1 Handset",
+              "dataName": "LC_HD_959",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "179.00",
+              "yourPrice": "179.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingEX Advanced™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Advanced",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "30.00",
+              "yourPrice": "30.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "$300 of international calling credit bundle",
+              "dataName": "LC_IB_351",
+              "group": "International",
+              "subgroup": "Bundles",
+              "chargeTerm": "Monthly",
+              "price": "250.00",
+              "yourPrice": "225.00",
+              "quantity": 1,
+              "discount": 10,
+              "discountType": "%"
+            },
+            {
+              "name": "Polycom Trio 8300 Conference Phone",
+              "dataName": "LC_HD_936",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "548.00",
+              "yourPrice": "448.00",
+              "quantity": 1,
+              "discount": 100,
+              "discountType": "USD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

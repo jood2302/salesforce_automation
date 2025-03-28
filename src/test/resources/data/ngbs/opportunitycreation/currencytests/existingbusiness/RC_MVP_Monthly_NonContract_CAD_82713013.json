@@ -1,0 +1,28 @@
+{
+  "description": "RC Canada RingEX Standard package with Monthly charge term, without Contract",
+  "scenario": "ngbs(brand=3610,package=1961v2)",
+  "billingId": "82713013",
+  "packageId": "82726013",
+  "rcUserId": "401387882061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "CAD",
+  "billingCountry": "Canada",
+  "brandName": "RingCentral Canada",
+  "businessIdentity": {
+    "id": "5",
+    "name": "RingCentral Canada"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Standard",
+          "id": "1961",
+          "version": "2",
+          "contract": "None"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "description": "RC RingEX Taiwan Standard package with contract and with DigitalLines and Existing Phone",
+  "chargeTerm": "Annual",
+  "currencyISOCode": "TWD",
+  "billingCountry": "Taiwan",
+  "brandName": "RingCentral EU",
+  "businessIdentity": {
+    "id": "72",
+    "name": "RingCentral Taiwan, Ltd."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingCentral Global RingEX Select Standard",
+          "id": "2000",
+          "version": "1",
+          "contract": "Office Taiwan Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "12"
+            ]
+          },
+          "products": [
+            {
+              "name": "Existing Phone",
+              "dataName": "LC_EP_930",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "TWD"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingEX Standard - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "TWD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "TWD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "TWD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "TWD"
+            },
+            {
+              "name": "DigitalLine Unlimited Standard",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "24828.00",
+              "yourPrice": "24828.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "description": "RingEX Core™ package with contract, DigitalLines, Phones + discount on DLs",
+  "chargeTerm": "Annual",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "48"
+            ],
+            "renewalTerm": "60"
+          },
+          "products": [
+            {
+              "name": "Cisco 8861 Gigabit Color Business Phone",
+              "dataName": "LC_HD_523",
+              "serviceName": "Office",
+              "productName": "Cisco 8861 Gigabit Color Business Phone",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "347.00",
+              "yourPrice": "347.00",
+              "quantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 30,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "48.00",
+              "yourPrice": "48.00",
+              "quantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "12.00",
+              "yourPrice": "12.00",
+              "quantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "serviceName": "Office",
+              "productName": "DigitalLine Unlimited",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "240.00",
+              "yourPrice": "216.00",
+              "quantity": 30,
+              "discount": 10,
+              "discountType": "%"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "DigitalLine Basic",
+              "dataName": "LC_DL-BAS_178",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "180.00",
+              "yourPrice": "180.00",
+              "quantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

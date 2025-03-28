@@ -1,0 +1,198 @@
+{
+  "description": "RingEX Core™ Monthly -> RingEX Ultra™ Annual (upgrade+upsell) contract cancel + more DLs",
+  "scenario": "ngbs(brand=1210,package=1231005v2,dlCount=30,numberType=TollFree)",
+  "billingId": "163058013",
+  "packageId": "163167013",
+  "rcUserId": "402283381061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "forecastedUsers": "35",
+  "packageFolders": [
+    {
+      "name": "Office",
+      "chargeTerm": "Monthly",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractExtId": "Office_5_US",
+          "productsFromBilling": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_32",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 35,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 35,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 35,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "comment": "price = 30.00 in NGBS (without 5$ contract discount)",
+              "price": "25.00",
+              "yourPrice": "25.00",
+              "quantity": 35,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packageFoldersUpgrade": [
+    {
+      "name": "Office",
+      "chargeTerm": "Annual",
+      "packages": [
+        {
+          "name": "RingEX Ultra™",
+          "id": "1233005",
+          "version": "2",
+          "contract": "None",
+          "productsDefault": [
+            {
+              "name": "RingEX Ultra™ - Subscription Fee",
+              "group": "",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_32",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 35,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "chargeTerm": "Annual",
+              "price": "48.00",
+              "yourPrice": "48.00",
+              "quantity": 35,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "chargeTerm": "Annual",
+              "price": "12.00",
+              "yourPrice": "12.00",
+              "quantity": 35,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Ultra",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "420.00",
+              "yourPrice": "420.00",
+              "quantity": 35,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

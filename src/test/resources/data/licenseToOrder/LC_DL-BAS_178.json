@@ -1,0 +1,32 @@
+{
+  "catalogId": "LC_DL_75",
+  "comment": "DigitalLine parent license; set qty to 1-50000 for DL Basic here",
+  "billingCycleDuration": "Monthly",
+  "qty": 1,
+  "batch": true,
+  "subItems": [
+    {
+      "catalogId": "LC_CRF_51",
+      "billingCycleDuration": "Monthly",
+      "qty": 1
+    },
+    {
+      "catalogId": "LC_E911_52",
+      "billingCycleDuration": "Monthly",
+      "qty": 1
+    },
+    {
+      "catalogId": "LC_DL-BAS_178",
+      "comment": "DigitalLine Basic license to be ordered",
+      "billingCycleDuration": "Monthly",
+      "qty": 1,
+      "subItems": [
+        {
+          "catalogId": "LC_DID_179",
+          "billingCycleDuration": "Monthly",
+          "qty": 1
+        }
+      ]
+    }
+  ]
+}

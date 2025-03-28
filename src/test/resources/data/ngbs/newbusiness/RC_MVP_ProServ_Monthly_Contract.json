@@ -1,0 +1,191 @@
+{
+  "description": "New Business RingEX Core™ and Professional Services packages with Monthly charge term and a Contract",
+  "comment": "The scenario below is used for an Existing Business Account creation to bypass full Sign Up flow in the test",
+  "scenario": "ngbs(brand=1210,package=1231005v2,numberType=Local,payment=Invoice)",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "12"
+            ],
+            "renewalTerm": "36"
+          },
+          "productsDefault": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "serviceName": "Office",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "25.00",
+              "yourPrice": "25.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Professional Services",
+      "packages": [
+        {
+          "name": "Professional Services",
+          "id": "2982005",
+          "version": "1",
+          "contract": "ProServ Contract",
+          "proServOptions": {
+            "isUcService": true,
+            "isCcService": true
+          },
+          "products": [
+            {
+              "name": "Additional Data Collection Session",
+              "dataName": "PS_UCOT_1431005",
+              "serviceName": "Professional Services",
+              "group": "UC",
+              "subgroup": "Implementation",
+              "chargeTerm": "One - Time",
+              "price": "1000.00",
+              "yourPrice": "1000.00",
+              "quantity": 4,
+              "phaseLineItemQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Additional On-site Support",
+              "dataName": "PS_UCOT_1424005",
+              "serviceName": "Professional Services",
+              "group": "UC",
+              "subgroup": "Implementation",
+              "chargeTerm": "One - Time",
+              "price": "2240.00",
+              "yourPrice": "2240.00",
+              "quantity": 4,
+              "phaseLineItemQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Business Consulting - Health Check",
+              "dataName": "PS_CCOT_1463005",
+              "serviceName": "Professional Services",
+              "group": "CC",
+              "subgroup": "Implementation",
+              "chargeTerm": "One - Time",
+              "price": "1750.00",
+              "yourPrice": "1750.00",
+              "quantity": 4,
+              "phaseLineItemQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "RingCX Basic Training Add-On",
+              "dataName": "PS_CCOT_1042005",
+              "serviceName": "Professional Services",
+              "group": "CC",
+              "subgroup": "Training",
+              "chargeTerm": "One - Time",
+              "price": "1000.00",
+              "yourPrice": "1000.00",
+              "quantity": 4,
+              "phaseLineItemQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

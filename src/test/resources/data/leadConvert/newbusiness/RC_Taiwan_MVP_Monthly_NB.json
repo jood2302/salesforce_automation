@@ -1,0 +1,25 @@
+{
+  "description": "New Business RC Taiwan Global RingEX Select Standard package without products",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "TWD",
+  "billingCountry": "Taiwan",
+  "brandName": "RingCentral EU",
+  "businessIdentity": {
+    "id": "72",
+    "name": "RingCentral Taiwan, Ltd."
+  },
+  "forecastedUsers": "1",
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingCentral Global RingEX Select Standard",
+          "id": "2000",
+          "version": "1",
+          "contract": "Office Taiwan Contract"
+        }
+      ]
+    }
+  ]
+}

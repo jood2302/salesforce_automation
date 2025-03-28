@@ -1,0 +1,25 @@
+{
+  "Status": "OK",
+  "StatusCode": 200,
+  "Data":
+  {
+    "result":
+    [
+      {
+        "languageId": 1033,
+        "localeCode": "en_US"
+      },
+      {
+        "languageId": 1031,
+        "localeCode": "de_DE"
+      },
+      {
+        "languageId": 1036,
+        "localeCode": "fr_FR"
+      }
+    ],
+    "SAFAS_SID": "105113c88d61c6c219049a62bb6348516fda4774df4d9215a2d2d0da943ec7c5",
+    "id": null
+  },
+  "Time": 76.52388894557953
+}

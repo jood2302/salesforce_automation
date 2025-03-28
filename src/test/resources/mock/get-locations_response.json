@@ -1,0 +1,115 @@
+{
+  "Status": "OK",
+  "StatusCode": 200,
+  "Data": {
+    "result": [
+      [
+        {
+          "city": "San Diego",
+          "npa": "619",
+          "nxx": "",
+          "state": "California"
+        },
+        {
+          "city": "Beverly Hills",
+          "npa": "323",
+          "nxx": "",
+          "state": "California"
+        },
+        {
+          "city": "Kent",
+          "npa": "860",
+          "nxx": "",
+          "state": "Connecticut"
+        },
+        {
+          "city": "New York City",
+          "npa": "347",
+          "nxx": "",
+          "state": "New York"
+        },
+        {
+          "city": "Hilo",
+          "npa": "808",
+          "nxx": "",
+          "state": "Hawaii"
+        },
+        {
+          "city": "Toronto",
+          "npa": "416",
+          "nxx": "",
+          "state": "Ontario"
+        },
+        {
+          "city": "Dartmouth",
+          "npa": "902",
+          "nxx": "",
+          "state": "Nova Scotia"
+        },
+        {
+          "city": "Grande Prairie",
+          "npa": "780",
+          "nxx": "",
+          "state": "Alberta"
+        },
+        {
+          "city": "San Juan",
+          "npa": "787",
+          "nxx": ""
+        },
+        {
+          "city": "Cleveland",
+          "npa": "7",
+          "nxx": "28",
+          "state": "Queensland"
+        },
+        {
+          "city": "Eltham",
+          "npa": "3",
+          "nxx": "94",
+          "state": "Victoria"
+        },
+        {
+          "city": "Lower Hunter",
+          "npa": "2",
+          "nxx": "40",
+          "state": "New South Wales"
+        },
+        {
+          "city": "Paris",
+          "npa": "1",
+          "nxx": "7039"
+        },
+        {
+          "city": "London",
+          "npa": "20",
+          "nxx": "",
+          "state": "London"
+        },
+        {
+          "city": "Frankfurt Am Main",
+          "npa": "69",
+          "nxx": ""
+        },
+        {
+          "city": "Alicante",
+          "npa": "865",
+          "nxx": ""
+        },
+        {
+          "city": "Mumbai",
+          "npa": "22",
+          "nxx": "",
+          "state": "Maharashtra"
+        },
+        {
+          "city": "Keelung",
+          "npa": "2",
+          "nxx": ""
+        }
+      ]
+    ],
+    "SAFAS_SID": "de199cf989665b2225c7e2a9b9a54c5efb3cbe7bf49662e214961abbdab92edf",
+    "id": null
+  }
+}

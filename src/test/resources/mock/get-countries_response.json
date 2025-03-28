@@ -1,0 +1,70 @@
+{
+  "Status": "OK",
+  "StatusCode": 200,
+  "Data": {
+    "result": [
+      {
+        "name": "United States",
+        "isDomestic": true,
+        "hasStates": true,
+        "iboDlZone": null
+      },
+      {
+        "name": "Puerto Rico",
+        "isDomestic": true,
+        "hasStates": false,
+        "iboDlZone": null
+      },
+      {
+        "name": "France",
+        "isDomestic": true,
+        "hasStates": false,
+        "iboDlZone": null
+      },
+      {
+        "name": "Germany",
+        "isDomestic": true,
+        "hasStates": false,
+        "iboDlZone": null
+      },
+      {
+        "name": "Spain",
+        "isDomestic": true,
+        "hasStates": false,
+        "iboDlZone": null
+      },
+      {
+        "name": "United Kingdom",
+        "isDomestic": true,
+        "hasStates": true,
+        "iboDlZone": null
+      },
+      {
+        "name": "Australia",
+        "isDomestic": true,
+        "hasStates": true,
+        "iboDlZone": null
+      },
+      {
+        "name": "Canada",
+        "isDomestic": true,
+        "hasStates": true,
+        "iboDlZone": null
+      },
+      {
+        "name": "India",
+        "isDomestic": true,
+        "hasStates": true,
+        "iboDlZone": null
+      },
+      {
+        "name": "Taiwan",
+        "isDomestic": true,
+        "hasStates": false,
+        "iboDlZone": null
+      }
+    ],
+    "SAFAS_SID": "a6581d2b5652f60041422b51f6979f8746efb8017e8e0b7ed1423e2c1de486e6",
+    "id": null
+  }
+}

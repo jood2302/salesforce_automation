@@ -1,0 +1,35 @@
+{
+  "description": "RC Engage Voice Standalone and RC Engage Digital Legacy packages with contracts",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "engageUsers": 12,
+  "packageFolders": [
+    {
+      "name": "Engage Voice Standalone",
+      "packages": [
+        {
+          "name": "RingCX Named Seats (USD)",
+          "id": "1270005",
+          "version": "5",
+          "contract": "EV Standalone Contract"
+        }
+      ]
+    },
+    {
+      "name": "Engage Digital Legacy",
+      "packages": [
+        {
+          "name": "Engage Digital for existing recurring customers (USD)",
+          "id": "550",
+          "version": "2",
+          "contract": "ED Legacy Contract"
+        }
+      ]
+    }
+  ]
+}

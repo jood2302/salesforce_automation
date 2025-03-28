@@ -1,0 +1,27 @@
+{
+  "description": "RingCentral with Verizon Standard package without contract and without products",
+  "scenario": "ngbs(brand=2210,package=1200v1)",
+  "billingId": "84610013",
+  "packageId": "84619013",
+  "rcUserId": "401397671061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral with Verizon",
+  "businessIdentity": {
+    "id": "47",
+    "name": "RingCentral with Verizon"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingCentral with Verizon Standard",
+          "id": "1200",
+          "version": "1",
+          "contract": ""
+        }
+      ]
+    }
+  ]
+}

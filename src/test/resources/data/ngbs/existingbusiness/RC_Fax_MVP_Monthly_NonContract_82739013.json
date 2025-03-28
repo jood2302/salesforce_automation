@@ -1,0 +1,154 @@
+{
+  "description": "RingCentral Fax3000 -> RingEX Core™ (monthly, no contract)",
+  "scenario": "ngbs(brand=1210,package=17v1,numberType=TollFree)",
+  "billingId": "82739013",
+  "packageId": "82752013",
+  "rcUserId": "401387934061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Fax",
+      "packages": [
+        {
+          "name": "RingCentral Fax3000",
+          "id": "17",
+          "version": "1",
+          "contract": "None",
+          "productsFromBilling": [
+            {
+              "name": "Subscription Fee",
+              "dataName": "LC_SC_1",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "27.99",
+              "yourPrice": "27.99",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_4",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packageFoldersUpgrade": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "None",
+          "productsDefault": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "30.00",
+              "yourPrice": "30.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "description": "RC EU RingEX Standard Regular package with Annual charge term, with Contract and with 1 DL + 1 Phone",
+  "chargeTerm": "Annual",
+  "currencyISOCode": "EUR",
+  "billingCountry": "France",
+  "brandName": "RingCentral EU",
+  "businessIdentity": {
+    "id": "1",
+    "name": "RingCentral, Ltd (France)"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Standard",
+          "id": "1976",
+          "version": "2",
+          "contract": "Office Contract",
+          "productsDefault": [
+            {
+              "name": "RingEX Standard - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "EUR"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "EUR"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "EUR"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "EUR"
+            },
+            {
+              "name": "DigitalLine Unlimited Standard",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "275.88",
+              "yourPrice": "275.88",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%",
+              "priceRater": [
+                {
+                  "minimumBorder": "100",
+                  "maximumBorder": "99999",
+                  "raterPrice": "179.88"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

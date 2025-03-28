@@ -1,0 +1,83 @@
+{
+  "description": "Existing Business Account with Office Standard package for Vodafone (UK)",
+  "scenario": "ngbs(brand=7010,package=1118v1)",
+  "billingId": "129408013",
+  "packageId": "129429013",
+  "rcUserId": "401771252061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "GBP",
+  "billingCountry": "United Kingdom",
+  "forecastedUsers": "13",
+  "brandName": "Vodafone Business with RingCentral",
+  "businessIdentity": {
+    "id": "48",
+    "name": "Vodafone Business with RingCentral UK"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "Office Standard",
+          "id": "1118",
+          "version": "1",
+          "contract": "",
+          "productsFromBilling": [
+            {
+              "name": "Office Standard - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "GBP"
+            },
+            {
+              "name": "Additional Local Number",
+              "dataName": "LC_ALN_38",
+              "group": "Add Ons",
+              "subgroup": "Numbers",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 10,
+              "existingQuantity": 10,
+              "discount": 0,
+              "discountType": "GBP"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 13,
+              "existingQuantity": 10,
+              "discount": 0,
+              "discountType": "GBP"
+            },
+            {
+              "name": "DigitalLine Unlimited Standard",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": 10.94,
+              "yourPrice": 10.94,
+              "quantity": 13,
+              "existingQuantity": 10,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

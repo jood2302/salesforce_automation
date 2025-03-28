@@ -1,0 +1,123 @@
+{
+  "description": "Avaya Cloud Office package with contract and quantity of DLs <= 250",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "Avaya Cloud Office",
+  "businessIdentity": {
+    "id": "20",
+    "name": "Avaya Cloud Office"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "Avaya Cloud Office Standard",
+          "id": "318",
+          "version": "2",
+          "contract": "Office Contract",
+          "products": [
+            {
+              "name": "Avaya IX IP Phone J139",
+              "dataName": "LC_HD_740",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "114.00",
+              "yourPrice": "114.00",
+              "quantity": 249,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "Avaya Cloud Office Standard - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 249,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "3.50",
+              "yourPrice": "3.50",
+              "quantity": 249,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 249,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Standard",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "25.99",
+              "yourPrice": "25.99",
+              "quantity": 249,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

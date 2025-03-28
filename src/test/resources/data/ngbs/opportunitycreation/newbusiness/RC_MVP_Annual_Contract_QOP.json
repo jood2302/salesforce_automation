@@ -1,0 +1,123 @@
+{
+  "description": "RingCentral Ultra package with contract, phone and default products",
+  "chargeTerm": "Annual",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Ultra™",
+          "id": "1233005",
+          "version": "2",
+          "contract": "Office Contract",
+          "products": [
+            {
+              "name": "Polycom VVX 450 Business IP Phone",
+              "dataName": "LC_HD_611",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "270.00",
+              "yourPrice": "270.00",
+              "quantity": 99,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingEX Ultra™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 99,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "48.00",
+              "yourPrice": "48.00",
+              "quantity": 99,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "12.00",
+              "yourPrice": "12.00",
+              "quantity": 99,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Ultra",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "420.00",
+              "yourPrice": "420.00",
+              "quantity": 99,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

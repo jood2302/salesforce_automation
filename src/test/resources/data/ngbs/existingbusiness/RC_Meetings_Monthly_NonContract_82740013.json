@@ -1,0 +1,176 @@
+{
+  "description": "RC Meetings Essentials -> RC Meetings Advanced (upgrade) / RC Meetings Essentials (upgrade charge term) / upsell with new products",
+  "scenario": "ngbs(brand=1210,package=7v1,product=meetings)",
+  "billingId": "82740013",
+  "packageId": "82753013",
+  "rcUserId": "401387936061",
+  "chargeTerm": "Monthly",
+  "brandName": "RingCentral",
+  "currencyISOCode": "USD",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Meetings",
+      "packages": [
+        {
+          "name": "RingCentral Meetings Essentials",
+          "id": "7",
+          "version": "1",
+          "contract": "None",
+          "products": [
+            {
+              "name": "Large Meetings 200",
+              "dataName": "LC_LM_406",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "90.00",
+              "yourPrice": "40.00",
+              "quantity": 30,
+              "discount": 50,
+              "discountType": "USD"
+            },
+            {
+              "name": "RingCentral Rooms",
+              "dataName": "LC_RCRM_416",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "49.00",
+              "yourPrice": "46.55",
+              "quantity": 3,
+              "discount": 5,
+              "discountType": "%"
+            },
+            {
+              "name": "RingCentral Webinar 1000",
+              "dataName": "LC_WB_412",
+              "group": "Add Ons",
+              "subgroup": "Webinars",
+              "chargeTerm": "Monthly",
+              "price": "340.00",
+              "yourPrice": "316.20",
+              "quantity": 3,
+              "discount": 7,
+              "discountType": "%"
+            }
+          ],
+          "productsFromBilling": [
+            {
+              "name": "RingCentral Meetings Subscription",
+              "dataName": "LC_SC_404",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Meetings",
+              "dataName": "LC_SM_405",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "14.99",
+              "yourPrice": "14.99",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packageFoldersUpgrade": [
+    {
+      "name": "Meetings",
+      "packages": [
+        {
+          "name": "RingCentral Meetings Advanced",
+          "id": "8",
+          "version": "1",
+          "contract": "None",
+          "productsFromBilling": [
+            {
+              "name": "RingCentral Meetings Subscription",
+              "dataName": "LC_SC_404",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Meetings",
+              "dataName": "LC_SM_405",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "19.99",
+              "yourPrice": "19.99",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packageFoldersUpgradeChargeTerm": [
+    {
+      "name": "Meetings",
+      "chargeTerm": "Annual",
+      "packages": [
+        {
+          "name": "RingCentral Meetings Essentials",
+          "id": "7",
+          "version": "1",
+          "contract": "None",
+          "productsFromBilling": [
+            {
+              "name": "RingCentral Meetings Subscription",
+              "dataName": "LC_SC_404",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Meetings",
+              "dataName": "LC_SM_405",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Annual",
+              "price": "149.90",
+              "yourPrice": "149.90",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

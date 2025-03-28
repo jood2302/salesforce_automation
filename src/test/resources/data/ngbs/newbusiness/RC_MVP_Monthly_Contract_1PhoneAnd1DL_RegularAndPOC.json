@@ -1,0 +1,185 @@
+{
+  "description": "RingEX Core™ package (regular) with contract and 1 DigitalLine and 1 Phone + RingEX Core™ and Ultra POC packages + RingEX Ultra™ package (regular) + RingEX Core™ package (regular) without Contract",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "36"
+            ],
+            "renewalTerm": "48"
+          },
+          "products": [
+            {
+              "name": "Polycom VVX 450 Business IP Phone - Rental",
+              "dataName": "LC_HDR_619",
+              "productName": "Polycom VVX450 Business IP Phone - Rental",
+              "group": "Devices",
+              "subgroup": "Rentals - Phones",
+              "chargeTerm": "Monthly",
+              "price": "9.50",
+              "yourPrice": "9.50",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "25.00",
+              "yourPrice": "17.50",
+              "quantity": 1,
+              "discount": 30,
+              "discountType": "%"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "Yealink W76P Cordless Phone with 1 Handset",
+              "dataName": "LC_HD_959",
+              "productName": "Yealink W76P Cordless Phone with 1 Handset",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "179.00",
+              "yourPrice": "179.00",
+              "quantity": 2,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        },
+        {
+          "name": "RingEX Core™",
+          "id": "1249005",
+          "version": "1",
+          "type": "POC",
+          "contract": ""
+        },
+        {
+          "name": "RingEX Ultra",
+          "id": "1239005",
+          "version": "1",
+          "type": "POC",
+          "contract": ""
+        },
+        {
+          "name": "RingEX Ultra™",
+          "id": "1233005",
+          "version": "2",
+          "contract": "Office Contract"
+        },
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "None",
+          "productsDefault": [
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "30.00",
+              "yourPrice": "21.00",
+              "quantity": 1,
+              "discount": 30,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

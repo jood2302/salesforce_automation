@@ -1,0 +1,30 @@
+{
+  "description": "RC India Mumbai RingEX Global Select package with contract + RingEX Core™ (US) package with contract",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "INR",
+  "billingCountry": "India",
+  "brandName": "RingCentral EU",
+  "businessIdentity": {
+    "id": "52",
+    "name": "RingCentral India Mumbai"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Global Select Standard™",
+          "id": "1450",
+          "version": "1",
+          "contract": "Office India Contract"
+        },
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract"
+        }
+      ]
+    }
+  ]
+}

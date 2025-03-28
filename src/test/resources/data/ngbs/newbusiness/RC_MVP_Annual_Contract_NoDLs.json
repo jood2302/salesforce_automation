@@ -1,0 +1,113 @@
+{
+  "description": "RingEX Core™ package with contract and without DigitalLines",
+  "chargeTerm": "Annual",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "products": [
+            {
+              "name": "Polycom VVX 450 Business IP Phone with 1 Expansion Module",
+              "dataName": "LC_HD_687",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "537.00",
+              "yourPrice": "537.00",
+              "quantity": 2,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Polycom Trio 8300 Conference Phone",
+              "dataName": "LC_HD_936",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "548.00",
+              "yourPrice": "548.00",
+              "quantity": 5,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "10DLC TCR SMS Registration - UCaaS Low Volume Campaign",
+              "dataName": "LC_TCRCSTD_1083",
+              "group": "Other",
+              "subgroup": "Others",
+              "chargeTerm": "Annual",
+              "price": "18.00",
+              "yourPrice": "18.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "10DLC TCR SMS Registration - UCaaS High Volume Campaign",
+              "dataName": "LC_TCRCSTD_1085",
+              "group": "Other",
+              "subgroup": "Others",
+              "chargeTerm": "Annual",
+              "price": "120.00",
+              "yourPrice": "120.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

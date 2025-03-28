@@ -1,0 +1,93 @@
+{
+  "dataSets": [
+    {
+      "description": "New Business Rise America with Monthly charge term and without Contract",
+      "chargeTerm": "Monthly",
+      "currencyISOCode": "USD",
+      "billingCountry": "United States",
+      "brandName": "Rise America",
+      "subBrandName": "3000.Brightspeed",
+      "businessIdentity": {
+        "id": "82005",
+        "name": "Brightspeed"
+      },
+      "packageFolders": [
+        {
+          "name": "Office",
+          "packages": [
+            {
+              "name": "Rise Core",
+              "id": "1725005",
+              "version": "1",
+              "contract": "",
+              "products": [
+                {
+                  "name": "API / Custom Build Project Management",
+                  "comment": "This product is kept in SFDC and doesn't have any 'dataName'",
+                  "group": "",
+                  "subgroup": "",
+                  "chargeTerm": "One - Time",
+                  "price": "250.00",
+                  "yourPrice": "250.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "%"
+                }
+              ],
+              "productsOther": [
+                {
+                  "name": "Agent Addition",
+                  "comment": "This product is kept in SFDC, doesn't belong to the package, and doesn't have any 'dataName'",
+                  "group": "",
+                  "subgroup": "",
+                  "chargeTerm": "One - Time",
+                  "price": "500.00",
+                  "yourPrice": "500.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "%"
+                },
+                {
+                  "name": "Agent Training Addition",
+                  "comment": "This product is kept in SFDC, doesn't belong to the package, and doesn't have any 'dataName'",
+                  "group": "",
+                  "chargeTerm": "One - Time",
+                  "price": "400.00",
+                  "yourPrice": "400.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "New Business Rise International with Monthly charge term and without Contract",
+      "chargeTerm": "Monthly",
+      "currencyISOCode": "AUD",
+      "billingCountry": "Australia",
+      "brandName": "Rise International",
+      "subBrandName": "2000.Optus",
+      "businessIdentity": {
+        "id": "83005",
+        "name": "Optus"
+      },
+      "packageFolders": [
+        {
+          "name": "Office",
+          "packages": [
+            {
+              "name": "Rise Core",
+              "id": "1815005",
+              "version": "1",
+              "contract": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "dataSets": [
+    {
+      "description": "New Business RingEX Core™ (US) Monthly with Contract",
+      "chargeTerm": "Monthly",
+      "currencyISOCode": "USD",
+      "billingCountry": "United States",
+      "brandName": "RingCentral",
+      "businessIdentity": {
+        "id": "4",
+        "name": "RingCentral Inc."
+      },
+      "forecastedUsers": "21",
+      "packageFolders": [
+        {
+          "name": "Office",
+          "packages": [
+            {
+              "name": "RingEX Core™",
+              "id": "1231005",
+              "version": "2",
+              "contract": "Office Contract",
+              "contractExtId": "Office_5_US",
+              "contractTerms": {
+                "initialTerm": [
+                  "36"
+                ],
+                "renewalTerm": "36"
+              },
+              "products": [
+                {
+                  "name": "Additional Local Number",
+                  "dataName": "LC_ALN_38",
+                  "group": "Add Ons",
+                  "subgroup": "Numbers",
+                  "chargeTerm": "Monthly",
+                  "price": "4.99",
+                  "yourPrice": "3.99",
+                  "quantity": 10,
+                  "discount": 1,
+                  "discountType": "USD"
+                },
+                {
+                  "name": "RingCentral Webinar 5000 License",
+                  "dataName": "LC_WB_590",
+                  "group": "Conferencing",
+                  "subgroup": "Meetings",
+                  "chargeTerm": "Monthly",
+                  "price": "2490.00",
+                  "quantity": 2,
+                  "discount": 0,
+                  "discountType": "%"
+                },
+                {
+                  "name": "Managed Services UC",
+                  "dataName": "LC_PROS_822005",
+                  "group": "Professional Services",
+                  "subgroup": "Managed Services",
+                  "chargeTerm": "Monthly",
+                  "price": "15.00",
+                  "quantity": 3,
+                  "discount": 0,
+                  "discountType": "%"
+                },
+                {
+                  "name": "Poly EncorePro 715 DaaS",
+                  "dataName": "LC_HDRO_1068",
+                  "productName": "Poly EncorePro 715 DaaS",
+                  "group": "Devices",
+                  "subgroup": "DaaS - Headsets",
+                  "chargeTerm": "Monthly",
+                  "price": "7.50",
+                  "yourPrice": "6.38",
+                  "quantity": 10,
+                  "discount": 15,
+                  "discountType": "%"
+                },
+                {
+                  "name": "Poly x30 rooms appliance - DaaS",
+                  "dataName": "LC_HDRO_1075",
+                  "productName": "Poly x30 rooms appliance - DaaS",
+                  "group": "Devices",
+                  "subgroup": "DaaS - Rooms",
+                  "chargeTerm": "Monthly",
+                  "price": "115.00",
+                  "yourPrice": "115.00",
+                  "quantity": 5,
+                  "discount": 0,
+                  "discountType": "%"
+                },
+                {
+                  "name": "Polycom VVX 450 Business IP Phone",
+                  "dataName": "LC_HD_611",
+                  "productName": "Polycom VVX450 Business IP Phone",
+                  "group": "Devices",
+                  "subgroup": "Purchase - Phones",
+                  "chargeTerm": "One - Time",
+                  "price": "270.00",
+                  "yourPrice": "270.00",
+                  "quantity": 10,
+                  "discount": 0,
+                  "discountType": "%"
+                }
+              ],
+              "productsDefault": [
+                {
+                  "name": "RingEX Core™ - Subscription Fee",
+                  "dataName": "LC_SC_29",
+                  "group": "",
+                  "subgroup": "",
+                  "chargeTerm": "Monthly",
+                  "price": "0.00",
+                  "yourPrice": "0.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "USD"
+                },
+                {
+                  "name": "Main Local Number",
+                  "dataName": "LC_MLN_31",
+                  "group": "Main Numbers",
+                  "subgroup": "All",
+                  "chargeTerm": "Monthly",
+                  "price": "0.00",
+                  "yourPrice": "0.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "USD"
+                },
+                {
+                  "name": "Main Local Fax Number",
+                  "dataName": "LC_MLFN_45",
+                  "group": "Main Numbers",
+                  "subgroup": "All",
+                  "chargeTerm": "Monthly",
+                  "price": "0.00",
+                  "yourPrice": "0.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "USD"
+                },
+                {
+                  "name": "DigitalLine",
+                  "dataName": "LC_DL_75",
+                  "group": "Services",
+                  "subgroup": "Main",
+                  "chargeTerm": "Monthly",
+                  "price": "0.00",
+                  "yourPrice": "0.00",
+                  "quantity": 21,
+                  "discount": 0,
+                  "discountType": "USD"
+                },
+                {
+                  "name": "Compliance and Administrative Cost Recovery Fee",
+                  "dataName": "LC_CRF_51",
+                  "group": "",
+                  "subgroup": "",
+                  "chargeTerm": "Monthly",
+                  "price": "4.00",
+                  "yourPrice": "4.00",
+                  "quantity": 21,
+                  "discount": 0,
+                  "discountType": "%"
+                },
+                {
+                  "name": "e911 Service Fee",
+                  "dataName": "LC_E911_52",
+                  "group": "",
+                  "subgroup": "",
+                  "chargeTerm": "Monthly",
+                  "price": "1.00",
+                  "yourPrice": "1.00",
+                  "quantity": 21,
+                  "discount": 0,
+                  "discountType": "%"
+                },
+                {
+                  "name": "DigitalLine Unlimited Core",
+                  "dataName": "LC_DL-UNL_50",
+                  "group": "Services",
+                  "subgroup": "Main",
+                  "chargeTerm": "Monthly",
+                  "price": "25.00",
+                  "yourPrice": "23.75",
+                  "quantity": 21,
+                  "discount": 5,
+                  "discountType": "%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "New Business RC Canada RingEX Standard Monthly with Contract",
+      "chargeTerm": "Monthly",
+      "currencyISOCode": "CAD",
+      "billingCountry": "Canada",
+      "brandName": "RingCentral Canada",
+      "businessIdentity": {
+        "id": "5",
+        "name": "RingCentral Canada"
+      },
+      "packageFolders": [
+        {
+          "name": "Office",
+          "packages": [
+            {
+              "name": "RingEX Standard",
+              "id": "1961",
+              "version": "2",
+              "contract": "Office Contract"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

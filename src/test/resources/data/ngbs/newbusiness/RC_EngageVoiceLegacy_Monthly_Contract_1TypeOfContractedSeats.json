@@ -1,0 +1,37 @@
+{
+  "description": "Engage Voice Legacy with Contracted Seats (USD) package with a contract",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Engage Voice Legacy",
+      "packages": [
+        {
+          "name": "Engage Voice Legacy with Contracted Seats (USD)",
+          "id": "600",
+          "version": "1",
+          "contract": "EV Legacy Contract",
+          "productsDefault": [
+            {
+              "name": "Concurrent agent seat",
+              "dataName": "LC_SEAT_23",
+              "group": "Services",
+              "subgroup": "Purchase",
+              "chargeTerm": "Monthly",
+              "price": "199.00",
+              "yourPrice": "199.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

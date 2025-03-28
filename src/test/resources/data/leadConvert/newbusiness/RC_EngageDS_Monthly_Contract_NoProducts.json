@@ -1,0 +1,24 @@
+{
+  "description": "RC Engage Digital Standalone package with contract",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "forecastedUsers": "1",
+  "packageFolders": [
+    {
+      "name": "Engage Digital Standalone",
+      "packages": [
+        {
+          "name": "Engage Digital Standalone concurrent seat based (USD)",
+          "id": "591",
+          "version": "3",
+          "contract": "ED Standalone Contract"
+        }
+      ]
+    }
+  ]
+}

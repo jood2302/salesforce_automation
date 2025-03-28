@@ -1,0 +1,353 @@
+{
+  "description": "RingEX Core™ -> RingEX Advanced™ (upgrade) / RingEX Core™ (upgrade charge term)",
+  "scenario": "ngbs(brand=1210,package=1231005v2,dlCount=30,numberType=TollFree)",
+  "billingId": "163074013",
+  "packageId": "163183013",
+  "rcUserId": "402283668061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "chargeTerm": "Monthly",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "None",
+          "products": [
+            {
+              "name": "RingCentral Webinar 1000 License",
+              "dataName": "LC_WB_272",
+              "group": "Conferencing",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "340.00",
+              "yourPrice": "323.00",
+              "quantity": 3,
+              "discount": 5,
+              "discountType": "%"
+            },
+            {
+              "name": "Cisco CP6821 Business IP Phone - Refurbished",
+              "dataName": "LC_HDRF_590",
+              "group": "Devices",
+              "subgroup": "Refurbished - Phones",
+              "chargeTerm": "One - Time",
+              "price": "83.00",
+              "yourPrice": "62.25",
+              "quantity": 5,
+              "discount": 25,
+              "discountType": "%"
+            }
+          ],
+          "productsFromBilling": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_32",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 35,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 35,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%",
+              "priceRater": [
+                {
+                  "minimumBorder": "1",
+                  "maximumBorder": "99",
+                  "raterPrice": "4.00"
+                },
+                {
+                  "minimumBorder": "100",
+                  "maximumBorder": "999",
+                  "raterPrice": "3.50"
+                },
+                {
+                  "minimumBorder": "1000",
+                  "maximumBorder": "50000",
+                  "raterPrice": "3.00"
+                }
+              ]
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 35,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "30.00",
+              "yourPrice": "22.50",
+              "quantity": 35,
+              "existingQuantity": 30,
+              "discount": 0,
+              "newDiscount": 25,
+              "discountType": "%"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "Yealink W76P Cordless Phone with 1 Handset",
+              "dataName": "LC_HD_959",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "179.00",
+              "quantity": 10,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packageFoldersUpgrade": [
+    {
+      "name": "Office",
+      "chargeTerm": "Monthly",
+      "packages": [
+        {
+          "name": "RingEX Advanced™",
+          "id": "1232005",
+          "version": "2",
+          "contract": "None",
+          "productsFromBilling": [
+            {
+              "name": "RingEX Advanced™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_32",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 30,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 30,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 30,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Advanced",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "35.00",
+              "yourPrice": "35.00",
+              "quantity": 30,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packageFoldersUpgradeChargeTerm": [
+    {
+      "name": "Office",
+      "chargeTerm": "Annual",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "None",
+          "productsFromBilling": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_32",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 30,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "48.00",
+              "yourPrice": "48.00",
+              "quantity": 30,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "12.00",
+              "yourPrice": "12.00",
+              "quantity": 30,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "240.00",
+              "yourPrice": "240.00",
+              "quantity": 30,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<aspectj>
+    <weaver options="-warn:none -Xlint:ignore"/>
+
+    <aspects>
+        <aspect name="com.aquiva.autotests.rc.internal.reporting.aspects.PageObjectStepAspect"/>
+        <aspect name="com.aquiva.autotests.rc.internal.reporting.aspects.SelenideAspect"/>
+        <aspect name="service.performance.PerformanceMeasureAspect"/>
+    </aspects>
+</aspectj>

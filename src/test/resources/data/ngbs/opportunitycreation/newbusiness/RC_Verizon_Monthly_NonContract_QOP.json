@@ -1,0 +1,37 @@
+{
+  "description": "RingCentral with Verizon Standard and Premium packages without contract",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral with Verizon",
+  "businessIdentity": {
+    "id": "47",
+    "name": "RingCentral with Verizon"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingCentral with Verizon Standard",
+          "id": "1200",
+          "version": "1",
+          "contract": "",
+          "productsOther": [
+            {
+              "name": "API / Custom Build Project Management",
+              "comment": "This product is kept in SFDC, doesn't belong to this package, and doesn't have any 'dataName'",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "One - Time",
+              "price": "250.00",
+              "yourPrice": "250.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

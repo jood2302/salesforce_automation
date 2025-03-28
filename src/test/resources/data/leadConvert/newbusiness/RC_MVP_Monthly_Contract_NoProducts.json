@@ -1,0 +1,24 @@
+{
+  "description": "New Business RingEX Core™ (US) Monthly with Contract",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "forecastedUsers": "67",
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract"
+        }
+      ]
+    }
+  ]
+}

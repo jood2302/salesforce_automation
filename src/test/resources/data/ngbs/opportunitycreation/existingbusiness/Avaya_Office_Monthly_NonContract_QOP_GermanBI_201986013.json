@@ -1,0 +1,28 @@
+{
+  "description": "Avaya Cloud Office Standard Monthly Non-Contract package with German BI",
+  "scenario": "ngbs(brand=6010,package=350v2,bi=44)",
+  "billingId": "201986013",
+  "packageId": "203190013",
+  "rcUserId": "402658053061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "EUR",
+  "billingCountry": "Germany",
+  "brandName": "Avaya Cloud Office",
+  "businessIdentity": {
+    "id": "44",
+    "name": "Avaya Cloud Office DE"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "Avaya Cloud Office Standard",
+          "id": "350",
+          "version": "2",
+          "contract": "None"
+        }
+      ]
+    }
+  ]
+}

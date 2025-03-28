@@ -1,0 +1,90 @@
+{
+  "description": "'RC US Video Pro +' package (Phoenix) with additional products",
+  "chargeTerm": "Annual",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Meetings",
+      "packages": [
+        {
+          "name": "RingCentral Video Pro+",
+          "id": "210",
+          "version": "1",
+          "contract": "Phoenix Meetings US Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "24"
+            ]
+          },
+          "products": [
+            {
+              "name": "RingCentral Rooms",
+              "dataName": "LC_RCRM_416",
+              "group": "Services",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "49.00",
+              "yourPrice": "46.55",
+              "quantity": 5,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "RingCentral Webinar 5000",
+              "dataName": "LC_WB_414",
+              "group": "Add Ons",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "24900.00",
+              "quantity": 15,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "RingCentral Webinar 3000",
+              "dataName": "LC_WB_413",
+              "group": "Add Ons",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "9900.00",
+              "quantity": 20,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingCentral Video Pro+ Subscription",
+              "dataName": "LC_SC_404",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Video Pro+",
+              "dataName": "LC_SM_405",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Annual",
+              "price": "120.00",
+              "yourPrice": "120.00",
+              "quantity": 10,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

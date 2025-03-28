@@ -1,0 +1,209 @@
+{
+  "description": "RingEX Core™ package with contract and Global RingEX lines + phone",
+  "chargeTerm": "Monthly",
+  "brandName": "RingCentral",
+  "currencyISOCode": "USD",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "products": [
+            {
+              "name": "Global RingEX™ - EMEA",
+              "dataName": "LC_IBO_284",
+              "group": "International",
+              "subgroup": "Global MVP",
+              "chargeTerm": "Monthly",
+              "price": "59.98",
+              "yourPrice": "59.98",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Global RingEX™ - UK",
+              "dataName": "LC_IBO_286",
+              "group": "International",
+              "subgroup": "Global MVP",
+              "chargeTerm": "Monthly",
+              "price": "59.98",
+              "yourPrice": "59.98",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Global RingEX™ - APAC",
+              "dataName": "LC_IBO_288",
+              "group": "International",
+              "subgroup": "Global MVP",
+              "chargeTerm": "Monthly",
+              "price": "59.98",
+              "yourPrice": "59.98",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Global RingEX™ - LATAM",
+              "dataName": "LC_IBO_290",
+              "group": "International",
+              "subgroup": "Global MVP",
+              "chargeTerm": "Monthly",
+              "price": "59.98",
+              "yourPrice": "59.98",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Polycom VVX 450 Business IP Phone with 1 Expansion Module",
+              "dataName": "LC_HD_687",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "537.00",
+              "yourPrice": "537.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "25.00",
+              "yourPrice": "25.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Global RingEX™ DigitalLine",
+              "dataName": "LC_DLI_282",
+              "group": "International",
+              "subgroup": "Global MVP",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 4,
+              "discount": 0,
+              "discountType": "USD"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "DigitalLine Basic",
+              "dataName": "LC_DL-BAS_178",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "15.00",
+              "yourPrice": "15.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Basic - International",
+              "dataName": "LC_IBO-BAS_496",
+              "group": "Services",
+              "subgroup": "Additional DLs",
+              "chargeTerm": "Monthly",
+              "price": "15.00",
+              "yourPrice": "15.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

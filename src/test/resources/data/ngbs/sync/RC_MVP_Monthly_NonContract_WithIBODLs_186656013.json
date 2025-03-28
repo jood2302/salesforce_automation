@@ -1,0 +1,265 @@
+{
+  "description": "RingEX Core™ with additional IBO DLs -> RingEX Advanced™ (upgrade+upsell) + phone + more DLs with discount + less IBO DLs + contract",
+  "scenario": "ngbs(brand=1210,package=1231005v2,numberType=TollFree)",
+  "billingId": "186656013",
+  "packageId": "187262013",
+  "rcUserId": "402547851061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "None",
+          "contractTerms": {
+            "initialTerm": [
+              "12"
+            ]
+          },
+          "productsFromBilling": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_32",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "30.00",
+              "yourPrice": "30.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Global RingEX™ DigitalLine",
+              "dataName": "LC_DLI_282",
+              "group": "International",
+              "subgroup": "Global MVP",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 30,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Global RingEX™ - LATAM",
+              "dataName": "LC_IBO_290",
+              "group": "International",
+              "subgroup": "Global MVP",
+              "chargeTerm": "Monthly",
+              "price": "50.98",
+              "yourPrice": "50.98",
+              "quantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packageFoldersUpgrade": [
+    {
+      "name": "Office",
+      "chargeTerm": "Monthly",
+      "packages": [
+        {
+          "name": "RingEX Advanced™",
+          "id": "1232005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractExtId": "Office_5_US",
+          "products": [
+            {
+              "name": "Polycom VVX 450 Business IP Phone with 1 Expansion Module",
+              "dataName": "LC_HD_687",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "537.00",
+              "yourPrice": "537.00",
+              "quantity": 4,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsFromBilling": [
+            {
+              "name": "RingEX Advanced™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_32",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 5,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 5,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 5,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Advanced",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "30.00",
+              "yourPrice": "28.50",
+              "quantity": 5,
+              "existingQuantity": 1,
+              "discount": 5,
+              "discountType": "%"
+            },
+            {
+              "name": "Global RingEX™ DigitalLine",
+              "dataName": "LC_DLI_282",
+              "group": "International",
+              "subgroup": "Global MVP",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 29,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Global RingEX™ - LATAM",
+              "dataName": "LC_IBO_290",
+              "group": "International",
+              "subgroup": "Global MVP",
+              "chargeTerm": "Monthly",
+              "price": "47.98",
+              "yourPrice": "47.98",
+              "quantity": 29,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

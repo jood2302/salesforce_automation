@@ -1,0 +1,220 @@
+{
+  "description": "RingEX Core™ package (US) with all types of digital lines, phone, rental phone and Global RingEX licenses",
+  "chargeTerm": "Annual",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "24"
+            ],
+            "renewalTerm": "36"
+          },
+          "products": [
+            {
+              "name": "Common Phone Core",
+              "dataName": "LC_DL-HDSK_177",
+              "group": "Services",
+              "subgroup": "Additional DLs",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine Basic",
+              "dataName": "LC_DL-BAS_178",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "180.00",
+              "yourPrice": "175.00",
+              "quantity": 3,
+              "discount": 5,
+              "discountType": "USD"
+            },
+            {
+              "name": "Global RingEX™ - EMEA",
+              "dataName": "LC_IBO_284",
+              "group": "International",
+              "subgroup": "Global MVP",
+              "chargeTerm": "Annual",
+              "price": "360.00",
+              "yourPrice": "324.00",
+              "quantity": 2,
+              "discount": 10,
+              "discountType": "%"
+            },
+            {
+              "name": "Polycom VVX 450 Business IP Phone - Rental",
+              "dataName": "LC_HDR_619",
+              "productName": "Polycom VVX450 Business IP Phone - Rental",
+              "group": "Devices",
+              "subgroup": "Rentals - Phones",
+              "chargeTerm": "Annual",
+              "price": "114.00",
+              "yourPrice": "114.00",
+              "quantity": 5,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Cisco 8861 Gigabit Color Business Phone",
+              "dataName": "LC_HD_523",
+              "productName": "Cisco 8861 Gigabit Color Business Phone",
+              "serviceName": "Office",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "347.00",
+              "yourPrice": "347.00",
+              "quantity": 2,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Additional Local Number",
+              "dataName": "LC_ALN_38",
+              "group": "Add Ons",
+              "subgroup": "Numbers",
+              "chargeTerm": "Annual",
+              "price": "59.88",
+              "yourPrice": "59.88",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 16,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "48.00",
+              "yourPrice": "48.00",
+              "quantity": 16,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "12.00",
+              "yourPrice": "12.00",
+              "quantity": 16,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "serviceName": "Office",
+              "productName": "DigitalLine Unlimited",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "240.00",
+              "yourPrice": "216.00",
+              "quantity": 10,
+              "discount": 10,
+              "discountType": "%"
+            },
+            {
+              "name": "Global RingEX™ DigitalLine",
+              "dataName": "LC_DLI_282",
+              "group": "International",
+              "subgroup": "Global MVP",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 2,
+              "discount": 0,
+              "discountType": "USD"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "Polycom VVX 450 Business IP Phone with 1 Expansion Module",
+              "dataName": "LC_HD_687",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "537.00",
+              "yourPrice": "537.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

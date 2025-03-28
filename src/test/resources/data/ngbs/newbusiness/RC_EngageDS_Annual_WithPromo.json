@@ -1,0 +1,88 @@
+{
+  "description": "RC Engage Digital Standalone package with products and Promotion",
+  "chargeTerm": "Annual",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Engage Digital Standalone",
+      "packages": [
+        {
+          "name": "Engage Digital Standalone concurrent seat based (USD)",
+          "id": "591",
+          "version": "3",
+          "contract": "ED Standalone Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "24"
+            ]
+          },
+          "productsDefault": [
+            {
+              "name": "Engage Digital concurrent seat, omni-channel",
+              "dataName": "SA_SEAT_5",
+              "group": "Services",
+              "subgroup": "Purchase",
+              "chargeTerm": "Annual",
+              "price": "1170.00",
+              "yourPrice": "1170.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "Engage Digital concurrent seat, omni-channel, on demand",
+              "dataName": "SA_SEATO_6",
+              "group": "Services",
+              "subgroup": "On Demand",
+              "chargeTerm": "Annual",
+              "price": "182.50",
+              "yourPrice": "182.50",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "promotions": [
+            {
+              "promoName": "QA Auto Promo for Engage DS seats (%)",
+              "promoCode": "QA-AUTO-ENGAGE-DS-PERCENT-0224",
+              "promoDescription": "10.00% off to 'L: Engage Digital seat for managing omni-channel' and 20.00% off to 'L: Engage Digital seat for managing omni-channel, on demand'",
+              "discountTemplates": [
+                {
+                  "name": "License: Engage Digital seat for managing omni-channel",
+                  "description": "10.00% off to License: Engage Digital seat for managing omni-channel",
+                  "value": "10",
+                  "type": "%",
+                  "applicableTo": {
+                    "id": "SA_SEAT_5",
+                    "type": "CatalogId"
+                  },
+                  "comment": "Parent License that defines Billing Cycle for its Child License"
+                },
+                {
+                  "name": "License: Engage Digital seat for managing omni-channel, on demand",
+                  "description": "20.00% off to License: Engage Digital seat for managing omni-channel, on demand",
+                  "value": "20",
+                  "type": "%",
+                  "applicableTo": {
+                    "id": "SA_SEATO_6",
+                    "type": "CatalogId"
+                  },
+                  "comment": "Child License that inherits Billing Cycle from its Parent License"
+                }
+              ],
+              "chargeTerm": "Annual"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

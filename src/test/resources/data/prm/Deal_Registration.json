@@ -1,0 +1,30 @@
+{
+  "firstName": "FName",
+  "lastName": "LName",
+  "companyName": "CompanyName",
+  "emailAddress": "email@example.com",
+  "phoneNumber": "+1234567890",
+  "country": "United States",
+  "state": "CALIFORNIA",
+  "city": "Belmont",
+  "address": "20 Davis Dr.",
+  "postalCode": "94002",
+  "tierName": "Office",
+  "forecastedUsers": "57",
+  "brand": "RingCentral",
+  "industry": "Communications",
+  "website": "https://example.com",
+  "numberOfEmployees": "20-99",
+  "estimatedCloseDate": "Dec 01, 2025",
+  "howDidYouAcquireThisLead": "How did we acquire this lead",
+  "description": "Test description",
+  "existingSolutionProvider": "Microsoft",
+  "competitors": [
+    "Avaya",
+    "Zoom"
+  ],
+  "whatsPromptingChange": [
+    "Reliability issues:outages or voice quality",
+    "End of life equipment"
+  ]
+}

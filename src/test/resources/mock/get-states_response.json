@@ -1,0 +1,80 @@
+{
+  "Status": "OK",
+  "StatusCode": 200,
+  "Data": {
+    "result": [
+      {
+        "name": "California",
+        "country": "United States",
+        "shortName": "CA"
+      },
+      {
+        "name": "New York",
+        "country": "United States",
+        "shortName": "NY"
+      },
+      {
+        "name": "Connecticut",
+        "country": "United States",
+        "shortName": "CT"
+      },
+      {
+        "name": "Florida",
+        "country": "United States",
+        "shortName": "FL"
+      },
+      {
+        "name": "Ohio",
+        "country": "United States",
+        "shortName": "OH"
+      },
+      {
+        "name": "Hawaii",
+        "country": "United States",
+        "shortName": "HI"
+      },
+      {
+        "name": "Ontario",
+        "country": "Canada",
+        "shortName": "ON"
+      },
+      {
+        "name": "Nova Scotia",
+        "country": "Canada",
+        "shortName": "NS"
+      },
+      {
+        "name": "Alberta",
+        "country": "Canada",
+        "shortName": "AB"
+      },
+      {
+        "name": "London",
+        "country": "United Kingdom",
+        "shortName": "LND"
+      },
+      {
+        "name": "Queensland",
+        "country": "Australia",
+        "shortName": "QLD"
+      },
+      {
+        "name": "Victoria",
+        "country": "Australia",
+        "shortName": "VIC"
+      },
+      {
+        "name": "New South Wales",
+        "country": "Australia",
+        "shortName": "NSW"
+      },
+      {
+        "name": "Maharashtra",
+        "country": "India",
+        "shortName": "MH"
+      }
+    ],
+    "SAFAS_SID": "93ff659e500c0f9ac772d501ede4c91437589f6d378dc6fbb5bd4ae86a4bdc42",
+    "id": null
+  }
+}

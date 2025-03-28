@@ -1,0 +1,64 @@
+{
+  "description": "RC UK RingEX Standard package without contract + phone",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "GBP",
+  "billingCountry": "United Kingdom",
+  "brandName": "RingCentral UK",
+  "businessIdentity": {
+    "id": "2",
+    "name": "RingCentral UK Ltd."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Standard",
+          "id": "1969",
+          "version": "2",
+          "contract": "None",
+          "products": [
+            {
+              "name": "Polycom VVX 450 Business IP Phone with 1 Expansion Module",
+              "dataName": "LC_HD_687",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "418.00",
+              "yourPrice": "418.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ], 
+          "productsDefault": [
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "GBP"
+            },
+            {
+              "name": "DigitalLine Unlimited Standard",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "23.99",
+              "yourPrice": "23.99",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

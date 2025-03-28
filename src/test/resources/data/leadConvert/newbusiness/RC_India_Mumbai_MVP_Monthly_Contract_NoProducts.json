@@ -1,0 +1,25 @@
+{
+  "description": "New Business RC India Mumbai RingEX Global, only package, without products",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "INR",
+  "billingCountry": "India",
+  "brandName": "RingCentral EU",
+  "businessIdentity": {
+    "id": "52",
+    "name": "RingCentral India Mumbai"
+  },
+  "forecastedUsers": "1",
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Global Select Standard™",
+          "id": "1450",
+          "version": "1",
+          "contract": "Office India Contract"
+        }
+      ]
+    }
+  ]
+}

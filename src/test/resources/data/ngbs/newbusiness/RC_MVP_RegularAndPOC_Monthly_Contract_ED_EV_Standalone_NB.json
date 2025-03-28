@@ -1,0 +1,200 @@
+{
+  "description": "RingEX Core™ packages (Regular and POC), RC Engage Digital, RC Engage Voice Standalone and RC Events POC packages (NB)",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "products": [
+            {
+              "name": "Cisco 8861 Gigabit Color Business Phone",
+              "dataName": "LC_HD_523",
+              "serviceName": "Office",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "347.00",
+              "yourPrice": "347.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "25.00",
+              "yourPrice": "25.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        },
+        {
+          "name": "RingEX Core™",
+          "id": "1249005",
+          "version": "1",
+          "type": "POC",
+          "contract": ""
+        }
+      ]
+    },
+    {
+      "name": "Engage Digital Standalone",
+      "packages": [
+        {
+          "name": "Engage Digital Standalone concurrent seat based (USD)",
+          "id": "591",
+          "version": "3",
+          "contract": "ED Standalone Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "24"
+            ]
+          },
+          "productsDefault": [
+            {
+              "name": "Engage Digital concurrent seat, omni-channel",
+              "dataName": "SA_SEAT_5",
+              "serviceName": "Engage Digital Standalone",
+              "group": "Services",
+              "subgroup": "Purchase",
+              "chargeTerm": "Monthly",
+              "price": "162.50",
+              "yourPrice": "162.50",
+              "quantity": 4,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engage Voice Standalone",
+      "packages": [
+        {
+          "name": "RingCX Named Seats (USD)",
+          "id": "1270005",
+          "version": "5",
+          "contract": "EV Standalone Contract",
+          "products": [
+            {
+              "name": "Call recording storage - 30 days, per seat",
+              "dataName": "SA_CRS30_24",
+              "serviceName": "Engage Voice Standalone",
+              "group": "Call Recording",
+              "subgroup": "Purchase",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "USD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "packages": [
+        {
+          "name": "RingCentral Events Free Trial",
+          "id": "5102005",
+          "version": "1",
+          "type": "POC",
+          "contract": ""
+        }
+      ]
+    }
+  ]
+}

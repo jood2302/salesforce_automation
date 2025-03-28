@@ -1,0 +1,570 @@
+{
+  "description": "New Business RingEX Core™, RingCentral Contact Center, Engage Voice and Digital Standalone packages with Monthly charge term and a Contract",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "12"
+            ],
+            "renewalTerm": "36"
+          },
+          "products": [
+            {
+              "name": "Polycom VVX 450 Business IP Phone - Rental",
+              "dataName": "LC_HDR_619",
+              "productName": "Polycom VVX450 Business IP Phone - Rental",
+              "group": "Devices",
+              "subgroup": "Rentals - Phones",
+              "chargeTerm": "Monthly",
+              "price": "9.50",
+              "yourPrice": "9.50",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "serviceName": "Office",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "25.00",
+              "yourPrice": "25.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_32",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine Basic",
+              "dataName": "LC_DL-BAS_178",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "14.99",
+              "yourPrice": "14.99",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Common Phone Core",
+              "dataName": "LC_DL-HDSK_177",
+              "group": "Services",
+              "subgroup": "Additional DLs",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "RingCentral Rooms License",
+              "dataName": "LC_RCRM_77",
+              "group": "Conferencing",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "49.00",
+              "yourPrice": "49.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Domestic Rooms Phone Line Add-On",
+              "dataName": "LC_DL-ROOMS_969",
+              "group": "Services",
+              "subgroup": "Additional DLs",
+              "chargeTerm": "Monthly",
+              "price": "15.00",
+              "yourPrice": "15.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "1,000 minute toll-free bundle",
+              "dataName": "LC_TB_373",
+              "group": "Bundles",
+              "subgroup": "Toll Free",
+              "chargeTerm": "Monthly",
+              "price": "29.99",
+              "yourPrice": "29.99",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RingCentral Contact Center",
+      "packages": [
+        {
+          "name": "Essentials Edition (3 ports) Named Seat (USD)",
+          "id": "801",
+          "version": "3",
+          "contract": "RCCC Contract",
+          "productsDefault": [
+            {
+              "name": "Essentials Seat (3 ports)",
+              "dataName": "CC_RCCCSEAT_1",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Core Add-ons",
+              "subgroup": "Seat",
+              "chargeTerm": "Monthly",
+              "price": "105.00",
+              "yourPrice": "105.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ], 
+          "productsOther": [
+            {
+              "name": "Contact Center Guide",
+              "dataName": "CC_RCCCGD_576",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Miscellaneous Add-ons",
+              "subgroup": "Guide",
+              "chargeTerm": "Monthly",
+              "price": "0.13",
+              "yourPrice": "0.13",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Bot Builder Large Package",
+              "dataName": "CC_BBSPKG_629",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Bot and Virtual Agent Products",
+              "subgroup": "Bot Builder",
+              "chargeTerm": "Monthly",
+              "price": "7500.00",
+              "yourPrice": "7500.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Bot Builder Medium Package",
+              "dataName": "CC_BBSPKG_627",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Bot and Virtual Agent Products",
+              "subgroup": "Bot Builder",
+              "chargeTerm": "Monthly",
+              "price": "4500.00",
+              "yourPrice": "4500.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Bot Builder Small Package",
+              "dataName": "CC_BBSPKG_625",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Bot and Virtual Agent Products",
+              "subgroup": "Bot Builder",
+              "chargeTerm": "Monthly",
+              "price": "2000.00",
+              "yourPrice": "2000.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Bot Builder XL Volume",
+              "dataName": "CC_BBSPKG_631",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Bot and Virtual Agent Products",
+              "subgroup": "Bot Builder",
+              "chargeTerm": "Monthly",
+              "price": "9100.00",
+              "yourPrice": "9100.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Performance Management (per Configured User)",
+              "dataName": "CC_WOIVPM_56",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Workforce Engagement Management",
+              "subgroup": "Performance Management",
+              "chargeTerm": "Monthly",
+              "price": "30.00",
+              "yourPrice": "30.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Performance Management - Standalone Wallboards (per Configured User)",
+              "dataName": "CC_WOIVSTW_57",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Workforce Engagement Management",
+              "subgroup": "Performance Management",
+              "chargeTerm": "Monthly",
+              "price": "15.00",
+              "yourPrice": "15.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Performance Management - Gamification (per Configured User)",
+              "dataName": "CC_WOIVGAM_58",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Workforce Engagement Management",
+              "subgroup": "Performance Management",
+              "chargeTerm": "Monthly",
+              "price": "15.00",
+              "yourPrice": "15.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Performance Management - Coaching and Learning Management (per Configured User)",
+              "dataName": "CC_WOIVCLM_59",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Workforce Engagement Management",
+              "subgroup": "Performance Management",
+              "chargeTerm": "Monthly",
+              "price": "15.00",
+              "yourPrice": "15.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Performance Management (per Concurrent User)",
+              "dataName": "CC_WOIVPMCONC_708",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Workforce Engagement Management",
+              "subgroup": "Performance Management",
+              "chargeTerm": "Monthly",
+              "price": "35.00",
+              "yourPrice": "35.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Performance Management - Gamification (per Concurrent User)",
+              "dataName": "CC_WOIVGACONC_712",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Workforce Engagement Management",
+              "subgroup": "Performance Management",
+              "chargeTerm": "Monthly",
+              "price": "21.00",
+              "yourPrice": "21.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Performance Management - Standalone Wallboards (per Concurrent User)",
+              "dataName": "CC_WOIVSTCONC_710",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Workforce Engagement Management",
+              "subgroup": "Performance Management",
+              "chargeTerm": "Monthly",
+              "price": "21.00",
+              "yourPrice": "21.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Performance Management - Coaching and Learning Management (per Concurrent User)",
+              "dataName": "CC_WOIVCLCONC_714",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Workforce Engagement Management",
+              "subgroup": "Performance Management",
+              "chargeTerm": "Monthly",
+              "price": "21.00",
+              "yourPrice": "21.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engage Voice Standalone",
+      "packages": [
+        {
+          "name": "RingCX Named Seats (USD)",
+          "id": "1270005",
+          "version": "5",
+          "contract": "EV Standalone Contract",
+          "products": [
+            {
+              "name": "Call recording storage - 30 days, per seat",
+              "dataName": "SA_CRS30_24",
+              "serviceName": "Engage Voice Standalone",
+              "group": "Call Recording",
+              "subgroup": "Purchase",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "USD"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "Domestic Outbound: 25K Minutes Bundle per month",
+              "dataName": "SA_OUTBBNDL_355",
+              "serviceName": "Engage Voice Standalone",
+              "group": "Bundles",
+              "subgroup": "Outbound",
+              "chargeTerm": "Monthly",
+              "price": "350.00",
+              "yourPrice": "350.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engage Digital Standalone",
+      "packages": [
+        {
+          "name": "Engage Digital Standalone concurrent seat based (USD)",
+          "id": "591",
+          "version": "3",
+          "contract": "ED Standalone Contract",
+          "productsDefault": [
+            {
+              "name": "Engage Digital concurrent seat, omni-channel",
+              "dataName": "SA_SEAT_5",
+              "serviceName": "Engage Digital Standalone",
+              "group": "Services",
+              "subgroup": "Purchase",
+              "chargeTerm": "Monthly",
+              "price": "162.50",
+              "yourPrice": "162.50",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "Engage Digital concurrent seat, email channel only",
+              "dataName": "SA_SEAT_1",
+              "serviceName": "Engage Digital Standalone",
+              "group": "Services",
+              "subgroup": "Purchase",
+              "chargeTerm": "Monthly",
+              "price": "97.50",
+              "yourPrice": "97.50",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Engage Digital concurrent seat, chat channel only",
+              "dataName": "SA_SEAT_3",
+              "serviceName": "Engage Digital Standalone",
+              "group": "Services",
+              "subgroup": "Purchase",
+              "chargeTerm": "Monthly",
+              "price": "97.50",
+              "yourPrice": "97.50",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Professional Services",
+      "packages": [
+        {
+          "name": "Professional Services",
+          "id": "2982005",
+          "version": "1",
+          "contract": "ProServ Contract",
+          "proServOptions": {
+            "isUcService": true,
+            "isCcService": true
+          },
+          "products": [
+            {
+              "name": "Additional Data Collection Session",
+              "dataName": "PS_UCOT_1431005",
+              "serviceName": "Professional Services",
+              "group": "UC",
+              "subgroup": "Implementation",
+              "chargeTerm": "One - Time",
+              "price": "1000.00",
+              "yourPrice": "1000.00",
+              "quantity": 1,
+              "phaseLineItemQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Additional On-site Support",
+              "dataName": "PS_UCOT_1424005",
+              "serviceName": "Professional Services",
+              "group": "UC",
+              "subgroup": "Implementation",
+              "chargeTerm": "One - Time",
+              "price": "2240.00",
+              "yourPrice": "2240.00",
+              "quantity": 1,
+              "phaseLineItemQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Business Consulting - Health Check",
+              "dataName": "PS_CCOT_1463005",
+              "serviceName": "Professional Services",
+              "group": "CC",
+              "subgroup": "Implementation",
+              "chargeTerm": "One - Time",
+              "price": "1750.00",
+              "yourPrice": "1750.00",
+              "quantity": 1,
+              "phaseLineItemQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "RingCX Basic Training Add-On",
+              "dataName": "PS_CCOT_1042005",
+              "serviceName": "Professional Services",
+              "group": "CC",
+              "subgroup": "Training",
+              "chargeTerm": "One - Time",
+              "price": "1000.00",
+              "yourPrice": "1000.00",
+              "quantity": 1,
+              "phaseLineItemQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

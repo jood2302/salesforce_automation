@@ -1,0 +1,63 @@
+{
+  "description": "Unify Video monthly package with contract -> upsell with more DLs (Video Pro+ licenses)",
+  "scenario": "ngbs(brand=2020/FR,package=510v1,product=meetings)",
+  "billingId": "129413013",
+  "packageId": "129434013",
+  "rcUserId": "401771260061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "EUR",
+  "billingCountry": "France",
+  "brandName": "Unify Office",
+  "businessIdentity": {
+    "id": "24",
+    "name": "Unify Office France"
+  },
+  "packageFolders": [
+    {
+      "name": "Meetings",
+      "packages": [
+        {
+          "name": "Unify Video",
+          "id": "510",
+          "version": "1",
+          "contract": "Unify Office Video EU Contract",
+          "contractExtId": "UnifyOffice_Phoenix_Meetings_Europe",
+          "contractTerms": {
+            "initialTerm": [
+              "24"
+            ]
+          },
+          "productsFromBilling": [
+            {
+              "name": "Unify Video Subscription",
+              "dataName": "LC_SC_404",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "EUR"
+            },
+            {
+              "name": "Video Pro+",
+              "dataName": "LC_SM_405",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "comment": "price = 11.99 in NGBS (without 1$ contract discount)",
+              "price": "10.99",
+              "yourPrice": "10.99",
+              "quantity": 20,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

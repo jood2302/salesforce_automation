@@ -1,0 +1,92 @@
+{
+  "description": "RingCentral Video Pro+ (monthly, no contract) -> RingCentral Video Pro+ (monthly, with contract)",
+  "scenario": "ngbs(brand=1210,package=210v1,product=meetings)",
+  "billingId": "82741013",
+  "packageId": "82754013",
+  "rcUserId": "401387938061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Meetings",
+      "packages": [
+        {
+          "name": "RingCentral Video Pro+",
+          "id": "210",
+          "version": "1",
+          "contract": "None",
+          "productsFromBilling": [
+            {
+              "name": "RingCentral Video Pro+ Subscription",
+              "dataName": "LC_SC_404",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Video Pro+",
+              "dataName": "LC_SM_405",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "10.00",
+              "yourPrice": "10.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packageFoldersUpgrade": [
+    {
+      "name": "Meetings",
+      "packages": [
+        {
+          "name": "RingCentral Video Pro+",
+          "id": "210",
+          "version": "1",
+          "contract": "Phoenix Meetings US Contract",
+          "productsFromBilling": [
+            {
+              "name": "RingCentral Video Pro+ Subscription",
+              "dataName": "LC_SC_404",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Video Pro+",
+              "dataName": "LC_SM_405",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "8.00",
+              "yourPrice": "8.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

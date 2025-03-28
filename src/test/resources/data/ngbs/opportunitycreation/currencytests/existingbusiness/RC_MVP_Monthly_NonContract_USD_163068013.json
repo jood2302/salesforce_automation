@@ -1,0 +1,27 @@
+{
+  "description": "RingEX Core™ package with Monthly charge term, without Contract",
+  "scenario": "ngbs(brand=1210,package=1231005v2,numberType=TollFree)",
+  "billingId": "163068013",
+  "packageId": "163177013",
+  "rcUserId": "402283587061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "None"
+        }
+      ]
+    }
+  ]
+}

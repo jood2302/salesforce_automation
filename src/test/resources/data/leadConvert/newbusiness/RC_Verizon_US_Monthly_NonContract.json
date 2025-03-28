@@ -1,0 +1,23 @@
+{
+  "description": "New Business RC with Verizon Monthly package without Contract",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral with Verizon",
+  "businessIdentity": {
+    "id": "47",
+    "name": "RingCentral with Verizon"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingCentral with Verizon Standard",
+          "id": "1200",
+          "version": "1",
+          "contract": ""
+        }
+      ]
+    }
+  ]
+}

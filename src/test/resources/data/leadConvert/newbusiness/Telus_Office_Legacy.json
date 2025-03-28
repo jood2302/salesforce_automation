@@ -1,0 +1,15 @@
+{
+  "description": "Legacy TELUS Business Connect test data",
+  "currencyISOCode": "CAD",
+  "billingCountry": "Canada",
+  "brandName": "TELUS Business Connect",
+  "businessIdentity": {
+    "id": "70",
+    "name": "TELUS Business Connect"
+  },
+  "packageFolders": [
+    {
+      "name": "Office"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "description": "RC Engage Digital Standalone and RingEX Core™ packages with products",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Engage Digital Standalone",
+      "packages": [
+        {
+          "name": "Engage Digital Standalone concurrent seat based (USD)",
+          "id": "591",
+          "version": "3",
+          "contract": "ED Standalone Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "24"
+            ]
+          },
+          "productsDefault": [
+            {
+              "name": "Engage Digital concurrent seat, omni-channel",
+              "dataName": "SA_SEAT_5",
+              "group": "Services",
+              "subgroup": "Purchase",
+              "chargeTerm": "Monthly",
+              "price": "162.50",
+              "yourPrice": "162.50",
+              "quantity": 4,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "Engage Digital concurrent seat, omni-channel, on demand",
+              "dataName": "SA_SEATO_6",
+              "group": "Services",
+              "subgroup": "On Demand",
+              "chargeTerm": "Monthly",
+              "price": "182.50",
+              "yourPrice": "182.50",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "24"
+            ]
+          },
+          "products": [
+            {
+              "name": "Polycom VVX 450 Business IP Phone - Rental",
+              "dataName": "LC_HDR_619",
+              "group": "Devices",
+              "subgroup": "Rentals - Phones",
+              "chargeTerm": "Monthly",
+              "price": "9.50",
+              "yourPrice": "9.50",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "25.00",
+              "yourPrice": "25.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

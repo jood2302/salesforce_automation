@@ -1,0 +1,108 @@
+{
+  "description": "RC RingEX, Engage Voice/Digital Standalone, Contact Center, Meetings and Fax packages with Annual charge term with/without contract and without products",
+  "chargeTerm": "Annual",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "None"
+        },
+        {
+          "name": "RingEX Advanced™",
+          "id": "1232005",
+          "version": "2",
+          "contract": "Office Contract"
+        },
+        {
+          "name": "RingEX Ultra™",
+          "id": "1233005",
+          "version": "2",
+          "contract": "Office Contract"
+        },
+        {
+          "name": "RingEX Standard - Global Unlimited™",
+          "id": "1953",
+          "version": "2",
+          "contract": "Office Contract"
+        },
+        {
+          "name": "RingEX Premium - Global Unlimited™",
+          "id": "1956",
+          "version": "2",
+          "contract": "Office Contract"
+        },
+        {
+          "name": "RingEX Ultimate - Global Unlimited™",
+          "id": "1958",
+          "version": "2",
+          "contract": "Office Contract"
+        }
+      ]
+    },
+    {
+      "name": "RingCentral Contact Center",
+      "packages": [
+        {
+          "name": "Essentials Edition (3 ports) Named Seat (USD)",
+          "id": "801",
+          "version": "3",
+          "contract": "RCCC Contract"
+        }
+      ]
+    },
+    {
+      "name": "Engage Voice Standalone",
+      "packages": [
+        {
+          "name": "RingCX Named Seats (USD)",
+          "id": "1270005",
+          "version": "5",
+          "contract": "EV Standalone Contract"
+        }
+      ]
+    },
+    {
+      "name": "Engage Digital Standalone",
+      "packages": [
+        {
+          "name": "Engage Digital Standalone concurrent seat based (USD)",
+          "id": "591",
+          "version": "3",
+          "contract": "ED Standalone Contract"
+        }
+      ]
+    },
+    {
+      "name": "Meetings",
+      "packages": [
+        {
+          "name": "RingCentral Video Pro+",
+          "id": "210",
+          "version": "1",
+          "contract": "Phoenix Meetings US Contract"
+        }
+      ]
+    },
+    {
+      "name": "Fax",
+      "packages": [
+        {
+          "name": "RingCentral Fax3000",
+          "id": "17",
+          "version": "1",
+          "contract": ""
+        }
+      ]
+    }
+  ]
+}

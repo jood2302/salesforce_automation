@@ -1,0 +1,124 @@
+{
+  "dataSets": [
+    {
+      "description": "New Business Rise America (Brightspeed)",
+      "currencyISOCode": "USD",
+      "billingCountry": "United States",
+      "brandName": "Rise America",
+      "businessIdentity": {
+        "id": "82005",
+        "name": "Brightspeed"
+      },
+      "packageFolders": [
+        {
+          "name": "Office"
+        }
+      ]
+    },
+    {
+      "description": "New Business Rise International (Optus)",
+      "currencyISOCode": "AUD",
+      "billingCountry": "Australia",
+      "brandName": "Rise International",
+      "businessIdentity": {
+        "id": "83005",
+        "name": "Optus"
+      },
+      "packageFolders": [
+        {
+          "name": "Office"
+        }
+      ]
+    },
+    {
+      "description": "New Business Vodafone Business with RingCentral",
+      "currencyISOCode": "GBP",
+      "billingCountry": "United Kingdom",
+      "brandName": "Vodafone Business with RingCentral",
+      "businessIdentity": {
+        "id": "48",
+        "name": "Vodafone Business with RingCentral UK"
+      },
+      "packageFolders": [
+        {
+          "name": "Office"
+        }
+      ]
+    },
+    {
+      "description": "New Business Rise International (EU)",
+      "currencyISOCode": "EUR",
+      "billingCountry": "France",
+      "brandName": "Rise International",
+      "businessIdentity": {
+        "id": "102005",
+        "name": "Rise International EU"
+      },
+      "packageFolders": [
+        {
+          "name": "Office"
+        }
+      ]
+    },
+    {
+      "description": "New Business Rise America (Cox)",
+      "currencyISOCode": "USD",
+      "billingCountry": "United States",
+      "brandName": "Rise America",
+      "businessIdentity": {
+        "id": "122005",
+        "name": "COX Communications"
+      },
+      "packageFolders": [
+        {
+          "name": "Office"
+        }
+      ]
+    },
+    {
+      "description": "New Business Rise America (Zayo)",
+      "currencyISOCode": "USD",
+      "billingCountry": "United States",
+      "brandName": "Rise America",
+      "businessIdentity": {
+        "id": "122005",
+        "name": "Zayo US"
+      },
+      "packageFolders": [
+        {
+          "name": "Office"
+        }
+      ]
+    },
+    {
+      "description": "New Business Rise America (US)",
+      "currencyISOCode": "USD",
+      "billingCountry": "United States",
+      "brandName": "Rise America",
+      "businessIdentity": {
+        "id": "81",
+        "name": "Rise America"
+      },
+      "packageFolders": [
+        {
+          "name": "Office"
+        }
+      ]
+    },
+    {
+      "description": "New Business Rise International (AU)",
+      "currencyISOCode": "AUD",
+      "billingCountry": "Australia",
+      "brandName": "Rise International",
+      "businessIdentity": {
+        "id": "82",
+        "name": "Rise International AU"
+      },
+      "packageFolders": [
+        {
+          "name": "Office"
+        }
+      ]
+    }
+  ]
+}

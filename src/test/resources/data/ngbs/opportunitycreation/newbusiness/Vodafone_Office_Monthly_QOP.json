@@ -1,0 +1,24 @@
+{
+  "description": "Vodafone Office Standard package without contract and products",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "GBP",
+  "billingCountry": "United Kingdom",
+  "brandName": "Vodafone Business with RingCentral",
+  "businessIdentity": {
+    "id": "48",
+    "name": "Vodafone Business with RingCentral UK"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "Office Standard",
+          "id": "1118",
+          "version": "1",
+          "contract": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "description": "RingEX Core™ POC package -> RingEX Ultra™ Paid package (EB) and ED, EV and RCCC packages (NB)",
+  "comment": "'billingId' and 'packageId' are non-actual, used for correct start of the test with account generation",
+  "scenario": "ngbs(brand=1210,package=1249005v1,targetPackage=1231005v2,numberType=TollFree)",
+  "billingId": "163081013",
+  "packageId": "163190013",
+  "rcUserId": "402283682061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "chargeTerm": "Monthly",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1249005",
+          "version": "1",
+          "type": "POC",
+          "contract": ""
+        }
+      ]
+    },
+    {
+      "name": "Engage Digital Standalone",
+      "packages": [
+        {
+          "name": "Engage Digital Standalone concurrent seat based (USD)",
+          "id": "591",
+          "version": "3",
+          "contract": "ED Standalone Contract",
+          "products": [
+            {
+              "name": "Line of Credit for WhatsApp Business",
+              "dataName": "SA_LINECRWHATSUP_11",
+              "serviceName": "Engage Digital Standalone",
+              "group": "Add Ons",
+              "subgroup": "Extensions",
+              "chargeTerm": "One - Time",
+              "price": "1500.00",
+              "yourPrice": "1500.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "Engage Digital concurrent seat, omni-channel",
+              "dataName": "SA_SEAT_5",
+              "serviceName": "Engage Digital Standalone",
+              "productName": "Engage Digital seat for managing omni-channel",
+              "group": "Services",
+              "subgroup": "Purchase",
+              "chargeTerm": "Annual",
+              "price": "1950.00",
+              "yourPrice": "1950.00",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engage Voice Standalone",
+      "packages": [
+        {
+          "name": "RingCX Named Seats (USD)",
+          "id": "1270005",
+          "version": "5",
+          "contract": "EV Standalone Contract",
+          "products": [
+            {
+              "name": "Call recording storage - 30 days, per seat",
+              "dataName": "SA_CRS30_24",
+              "serviceName": "Engage Voice Standalone",
+              "group": "Call Recording",
+              "subgroup": "Purchase",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Toll Free Inbound: 25K Minutes Bundle per month",
+              "dataName": "SA_TFBNDL_254",
+              "serviceName": "Engage Voice Standalone",
+              "group": "Bundles",
+              "subgroup": "Toll Free",
+              "chargeTerm": "Annual",
+              "price": "4200.00",
+              "yourPrice": "4200.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingCX, named agent seat",
+              "dataName": "SA_SEAT_4",
+              "serviceName": "Engage Voice seat (outbound/blended)",
+              "group": "Services",
+              "subgroup": "Purchase",
+              "chargeTerm": "Annual",
+              "price": "900.00",
+              "yourPrice": "900.00",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RingCentral Contact Center",
+      "packages": [
+        {
+          "name": "Essentials Edition (3 ports) Named Seat (USD)",
+          "id": "801",
+          "version": "3",
+          "contract": "RCCC Contract",
+          "products": [
+            {
+              "name": "Contact Center Guide",
+              "dataName": "CC_RCCCGD_576",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Miscellaneous Add-ons",
+              "subgroup": "Guide",
+              "chargeTerm": "Annual",
+              "price": "1.56",
+              "yourPrice": "1.56",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "Essentials Seat (3 ports)",
+              "dataName": "CC_RCCCSEAT_1",
+              "serviceName": "RingCentral Contact Center",
+              "productName": "Seat",
+              "group": "Core Add-ons",
+              "subgroup": "Seat",
+              "chargeTerm": "Annual",
+              "price": "1260.00",
+              "yourPrice": "1260.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packageFoldersUpgrade": [
+    {
+      "name": "Office",
+      "chargeTerm": "Annual",
+      "packages": [
+        {
+          "name": "RingEX Ultra™",
+          "id": "1233005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractExtId": "Office_5_US",
+          "products": [
+            {
+              "name": "Yealink T33G Gigabit Business Phone",
+              "dataName": "LC_HD_937",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "108.00",
+              "yourPrice": "108.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsFromBilling": [
+            {
+              "name": "RingEX Ultra™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_32",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "42.00",
+              "yourPrice": "42.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "12.00",
+              "yourPrice": "12.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Ultra",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "420.00",
+              "yourPrice": "420.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "description": "RingEX Core™ package (Annual and Monthly) with contract and with DigitalLines and Phones + Promotions",
+  "chargeTerm": "Annual",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractTerms": {
+            "initialTerm": [
+              "24"
+            ]
+          },
+          "products": [
+            {
+              "name": "Polycom Trio 8300 Conference Phone",
+              "dataName": "LC_HD_936",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "548.00",
+              "yourPrice": "548.00",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Cisco 8861 Gigabit Color Business Phone",
+              "dataName": "LC_HD_523",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "347.00",
+              "yourPrice": "347.00",
+              "quantity": 2,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 5,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "48.00",
+              "yourPrice": "48.00",
+              "quantity": 5,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Annual",
+              "price": "12.00",
+              "yourPrice": "12.00",
+              "quantity": 5,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "240.00",
+              "yourPrice": "240.00",
+              "quantity": 5,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "Additional Toll-Free Number",
+              "dataName": "LC_ATN_39",
+              "group": "Add Ons",
+              "subgroup": "Numbers",
+              "chargeTerm": "Annual",
+              "price": "59.88",
+              "yourPrice": "59.88",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "promotions": [
+            {
+              "promoName": "QA Auto Promo for DL Unlimited Category (USD)",
+              "promoCode": "QA-AUTO-DLUNLIMITED-CATEGORY-USD-06-22",
+              "promoDescription": "$10.00 off to Category: DL unlimited (promo)",
+              "discountTemplates": [
+                {
+                  "name": "Category: DL unlimited",
+                  "description": "$10.00 off to Category: DL unlimited (discount)",
+                  "value": "10",
+                  "type": "USD",
+                  "applicableTo": {
+                    "id": "DL-UNL",
+                    "type": "CategoryId"
+                  }
+                }
+              ],
+              "chargeTerm": "Annual"
+            },
+            {
+              "promoName": "QA Auto Promo for DL Unlimited Category (%)",
+              "promoCode": "QA-AUTO-DLUNLIMITED-CATEGORY-PERCENT-06-22",
+              "promoDescription": "10.00% off to Category: DL unlimited (promo)",
+              "discountTemplates": [
+                {
+                  "name": "Category: DL unlimited",
+                  "description": "10.00% off to Category: DL unlimited (discount)",
+                  "value": "10",
+                  "type": "%",
+                  "applicableTo": {
+                    "id": "DL-UNL",
+                    "type": "CategoryId"
+                  }
+                }
+              ],
+              "chargeTerm": "Annual"
+            },
+            {
+              "promoName": "QA Auto Promo for a Polycom Phone (USD)",
+              "promoCode": "QA-AUTO-POLYCOM-PHONE-USD-12-23",
+              "promoDescription": "$10.00 off to License: Polycom Trio 8300 Conference Phone (promo)",
+              "discountTemplates": [
+                {
+                  "name": "License: Polycom Trio 8300 Conference Phone",
+                  "description": "$10.00 off to License: Polycom Trio 8300 Conference Phone (discount)",
+                  "value": "10",
+                  "type": "USD",
+                  "applicableTo": {
+                    "id": "LC_HD_936",
+                    "type": "CatalogId"
+                  }
+                }
+              ],
+              "chargeTerm": "One - Time"
+            },
+            {
+              "promoName": "QA Auto Promo for a Polycom Phone (%)",
+              "promoCode": "QA-AUTO-POLYCOM-PHONE-PERCENT-12-23",
+              "promoDescription": "10.00% off to License: Polycom Trio 8300 Conference Phone (promo)",
+              "discountTemplates": [
+                {
+                  "name": "License: Polycom Trio 8300 Conference Phone",
+                  "description": "10.00% off to License: Polycom Trio 8300 Conference Phone (discount)",
+                  "value": "10",
+                  "type": "%",
+                  "applicableTo": {
+                    "id": "LC_HD_936",
+                    "type": "CatalogId"
+                  }
+                }
+              ],
+              "chargeTerm": "One - Time"
+            },
+            {
+              "promoName": "QA Auto Promo for a Phone Category (USD)",
+              "promoCode": "QA-AUTO-PHONES-CATEGORY-USD-06-22",
+              "promoDescription": "$10.00 off to Category: Hardware - Device (promo)",
+              "discountTemplates": [
+                {
+                  "name": "Category: Hardware - Device",
+                  "description": "$10.00 off to Category: Hardware - Device (discount)",
+                  "value": "10",
+                  "type": "USD",
+                  "applicableTo": {
+                    "id": "HD",
+                    "type": "CategoryId"
+                  }
+                }
+              ],
+              "chargeTerm": "One - Time"
+            },
+            {
+              "promoName": "QA Auto Promo for a CRF Category (%)",
+              "promoCode": "QA-AUTO-CATEGORY-CRF-PERCENT-06-22",
+              "promoDescription": "10.00% off to Category: CRF (promo)",
+              "discountTemplates": [
+                {
+                  "name": "Category: CRF",
+                  "description": "10.00% off to Category: CRF (discount)",
+                  "value": "10",
+                  "type": "%",
+                  "applicableTo": {
+                    "id": "CRF",
+                    "type": "CategoryId"
+                  }
+                }
+              ],
+              "chargeTerm": "Annual"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office",
+      "chargeTerm": "Monthly",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract"
+        }
+      ]
+    }
+  ]
+}

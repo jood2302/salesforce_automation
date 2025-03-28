@@ -1,0 +1,89 @@
+{
+  "description": "Existing Business RC EU RingEX Ultimate package with Monthly charge term, Direct Debit payment method and without Contract",
+  "scenario": "office.paid(1980,2,brand=2010,pm=directdebit)",
+  "billingId": "82738013",
+  "packageId": "82751013",
+  "rcUserId": "401387932061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "EUR",
+  "billingCountry": "France",
+  "brandName": "RingCentral EU",
+  "businessIdentity": {
+    "id": "1",
+    "name": "RingCentral, Ltd (France)"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Ultimate",
+          "id": "1980",
+          "version": "2",
+          "contract": "None",
+          "productsFromBilling": [
+            {
+              "name": "RingEX Standard - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "EUR"
+            },
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_32",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "EUR"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "EUR"
+            },
+            {
+              "name": "DigitalLine Unlimited Ultimate",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "45.99",
+              "yourPrice": "45.99",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "%",
+              "priceRater": [
+                {
+                  "minimumBorder": "100",
+                  "maximumBorder": "99999",
+                  "raterPrice": "37.99"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

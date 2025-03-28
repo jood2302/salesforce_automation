@@ -1,0 +1,120 @@
+{
+  "description": "RingEX Standard - Global Unlimited packages with and without contract (Monthly) + RingEX Standard - Global Unlimited™ package with contract (Annual)",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "chargeTerm": "Monthly",
+      "packages": [
+        {
+          "name": "RingEX Standard - Global Unlimited™",
+          "id": "1953",
+          "version": "2",
+          "contract": "Office Contract",
+          "productsDefault": [
+            {
+              "name": "DigitalLine Unlimited Standard",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "49.00",
+              "yourPrice": "49.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%",
+              "priceRater": [
+                {
+                  "minimumBorder": "1",
+                  "maximumBorder": "99",
+                  "raterPrice": "49.00"
+                },
+                {
+                  "minimumBorder": "100",
+                  "maximumBorder": "999",
+                  "raterPrice": "46.00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RingEX Standard - Global Unlimited™",
+          "id": "1953",
+          "version": "2",
+          "contract": "None",
+          "productsDefault": [
+            {
+              "name": "DigitalLine Unlimited Standard",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "56.00",
+              "yourPrice": "56.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%",
+              "priceRater": [
+                {
+                  "minimumBorder": "1",
+                  "maximumBorder": "99",
+                  "raterPrice": "56.00"
+                },
+                {
+                  "minimumBorder": "100",
+                  "maximumBorder": "999",
+                  "raterPrice": "53.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office",
+      "chargeTerm": "Annual",
+      "packages": [
+        {
+          "name": "RingEX Standard - Global Unlimited™",
+          "id": "1953",
+          "version": "2",
+          "contract": "Office Contract",
+          "productsDefault": [
+            {
+              "name": "DigitalLine Unlimited Standard",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Annual",
+              "price": "636.00",
+              "yourPrice": "636.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%",
+              "priceRater": [
+                {
+                  "minimumBorder": "1",
+                  "maximumBorder": "99",
+                  "raterPrice": "636.00"
+                },
+                {
+                  "minimumBorder": "100",
+                  "maximumBorder": "999",
+                  "raterPrice": "600.00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

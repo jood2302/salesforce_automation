@@ -1,0 +1,142 @@
+{
+  "description": "RingEX Core™ package -> upsell with more DLs + discount on DLs + phone + new recurring license",
+  "scenario": "ngbs(brand=1210,package=1231005v2,dlCount=30,numberType=TollFree)",
+  "billingId": "163075013",
+  "packageId": "163184013",
+  "rcUserId": "402283670061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "Office Contract",
+          "contractExtId": "Office_5_US",
+          "contractTerms": {
+            "initialTerm": [
+              "24"
+            ],
+            "renewalTerm": "24"
+          },
+          "products": [
+            {
+              "name": "Polycom VVX 450 Business IP Phone with 1 Expansion Module",
+              "dataName": "LC_HD_687",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "537.00",
+              "yourPrice": "537.00",
+              "quantity": 20,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Contact Center Interconnect",
+              "dataName": "LC_ICI_477",
+              "group": "Add Ons",
+              "subgroup": "Others",
+              "chargeTerm": "Monthly",
+              "price": "20.00",
+              "yourPrice": "20.00",
+              "quantity": 20,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsFromBilling": [
+            {
+              "name": "RingEX Core™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Main Toll-Free Number",
+              "dataName": "LC_MTN_32",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 50,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "48.00",
+              "yourPrice": "48.00",
+              "quantity": 50,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 50,
+              "existingQuantity": 30,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Core",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "comment": "price = 30.00 in NGBS (without 5$ contract discount)",
+              "price": "25.00",
+              "yourPrice": "12.00",
+              "quantity": 50,
+              "existingQuantity": 30,
+              "discount": 0,
+              "newDiscount": 13,
+              "discountType": "USD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

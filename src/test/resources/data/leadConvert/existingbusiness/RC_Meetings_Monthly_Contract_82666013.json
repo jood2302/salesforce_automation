@@ -1,0 +1,56 @@
+{
+  "description": "RC Video Pro+ without a Contract -> upsell with more users",
+  "scenario": "ngbs(brand=1210,package=210v1,product=meetings)",
+  "billingId": "82666013",
+  "packageId": "82679013",
+  "rcUserId": "401387638061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "forecastedUsers": "35",
+  "packageFolders": [
+    {
+      "name": "Meetings",
+      "packages": [
+        {
+          "name": "RingCentral Video Pro+",
+          "id": "210",
+          "version": "1",
+          "contract": "None",
+          "productsFromBilling": [
+            {
+              "name": "RingCentral Video Pro+ Subscription",
+              "dataName": "LC_SC_404",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "USD"
+            },
+            {
+              "name": "Video Pro+",
+              "dataName": "LC_SM_405",
+              "group": "Services",
+              "subgroup": "Meetings",
+              "chargeTerm": "Monthly",
+              "price": "10.00",
+              "yourPrice": "10.00",
+              "quantity": 35,
+              "existingQuantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

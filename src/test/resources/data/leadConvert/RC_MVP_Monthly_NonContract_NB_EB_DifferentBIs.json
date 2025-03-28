@@ -1,0 +1,223 @@
+{
+  "dataSets": [
+    {
+      "description": "New Business RingEX Core™ Monthly without Contract",
+      "chargeTerm": "Monthly",
+      "currencyISOCode": "USD",
+      "brandName": "RingCentral",
+      "businessIdentity": {
+        "id": "4",
+        "name": "RingCentral Inc."
+      },
+      "forecastedUsers": "20",
+      "packageFolders": [
+        {
+          "name": "Office",
+          "packages": [
+            {
+              "name": "RingEX Core™",
+              "id": "1231005",
+              "version": "2",
+              "contract": "None",
+              "products": [
+                {
+                  "name": "DigitalLine Unlimited Core",
+                  "dataName": "LC_DL-UNL_50",
+                  "group": "Services",
+                  "subgroup": "Main",
+                  "chargeTerm": "Monthly",
+                  "price": "30.00",
+                  "quantity": 20,
+                  "discount": 0,
+                  "discountType": "%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Existing Business RC France RingEX Standard Monthly without a Contract",
+      "scenario": "ngbs(brand=2010,package=1976v2,numberType=TollFree)",
+      "billingId": "130181013",
+      "packageId": "130202013",
+      "rcUserId": "401775811061",
+      "chargeTerm": "Monthly",
+      "currencyISOCode": "EUR",
+      "billingCountry": "France",
+      "brandName": "RingCentral EU",
+      "businessIdentity": {
+        "id": "1",
+        "name": "RingCentral, Ltd (France)"
+      },
+      "forecastedUsers": "1",
+      "packageFolders": [
+        {
+          "name": "Office",
+          "packages": [
+            {
+              "name": "RingEX Standard",
+              "id": "1976",
+              "version": "2",
+              "contract": "None",
+              "productsFromBilling": [
+                {
+                  "name": "RingEX Standard - Subscription Fee",
+                  "dataName": "LC_SC_29",
+                  "group": "",
+                  "subgroup": "",
+                  "chargeTerm": "Monthly",
+                  "price": "0.00",
+                  "yourPrice": "0.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "EUR"
+                },
+                {
+                  "name": "Main Toll-Free Number",
+                  "dataName": "LC_MTN_32",
+                  "group": "Main Numbers",
+                  "subgroup": "All",
+                  "chargeTerm": "Monthly",
+                  "price": "0.00",
+                  "yourPrice": "0.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "EUR"
+                },
+                {
+                  "name": "DigitalLine",
+                  "dataName": "LC_DL_75",
+                  "group": "",
+                  "subgroup": "",
+                  "chargeTerm": "Monthly",
+                  "price": "0.00",
+                  "yourPrice": "0.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "EUR"
+                },
+                {
+                  "name": "Compliance and Administrative Cost Recovery Fee",
+                  "dataName": "LC_CRF_51",
+                  "group": "",
+                  "subgroup": "",
+                  "chargeTerm": "Monthly",
+                  "price": "4.00",
+                  "yourPrice": "4.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "%"
+                },
+                {
+                  "name": "e911 Service Fee",
+                  "dataName": "LC_E911_52",
+                  "group": "",
+                  "subgroup": "",
+                  "chargeTerm": "Monthly",
+                  "price": "1.00",
+                  "yourPrice": "1.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "%"
+                },
+                {
+                  "name": "DigitalLine Unlimited Standard",
+                  "dataName": "LC_DL-UNL_50",
+                  "group": "Services",
+                  "subgroup": "Main",
+                  "chargeTerm": "Monthly",
+                  "price": "28.99",
+                  "yourPrice": "28.99",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Trial Existing Business RC Singapore RingEX Ultimate Monthly without a Contract",
+      "scenario": "ngbs(brand=2010/SG,package=281v1,targetPackage=279v1,numberType=Local,payment=Invoice)",
+      "billingId": "130200013",
+      "packageId": "130221013",
+      "rcUserId": "401775854061",
+      "chargeTerm": "Monthly",
+      "currencyISOCode": "SGD",
+      "billingCountry": "Singapore",
+      "brandName": "RingCentral EU",
+      "businessIdentity": {
+        "id": "45",
+        "name": "RingCentral Singapore"
+      },
+      "forecastedUsers": "1",
+      "packageFolders": [
+        {
+          "name": "Office",
+          "packages": [
+            {
+              "name": "RingEX Ultimate",
+              "id": "279",
+              "version": "1",
+              "contract": "None",
+              "productsFromBilling": [
+                {
+                  "name": "RingEX Ultimate - Subscription Fee",
+                  "dataName": "LC_SC_29",
+                  "group": "",
+                  "subgroup": "",
+                  "chargeTerm": "Monthly",
+                  "price": "0.00",
+                  "yourPrice": "0.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "SGD"
+                },
+                {
+                  "name": "Main Local Number",
+                  "dataName": "LC_MLN_31",
+                  "group": "",
+                  "subgroup": "",
+                  "chargeTerm": "Monthly",
+                  "price": "0.00",
+                  "yourPrice": "0.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "SGD"
+                },
+                {
+                  "name": "DigitalLine",
+                  "dataName": "LC_DL_75",
+                  "group": "",
+                  "subgroup": "",
+                  "chargeTerm": "Monthly",
+                  "price": "0.00",
+                  "yourPrice": "0.00",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "SGD"
+                },
+                {
+                  "name": "DigitalLine Unlimited Ultimate",
+                  "dataName": "LC_DL-UNL_50",
+                  "group": "Services",
+                  "subgroup": "Main",
+                  "chargeTerm": "Monthly",
+                  "price": "84.99",
+                  "yourPrice": "84.99",
+                  "quantity": 1,
+                  "discount": 0,
+                  "discountType": "%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

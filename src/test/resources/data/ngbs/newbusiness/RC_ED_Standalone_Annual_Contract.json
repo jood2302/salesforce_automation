@@ -1,0 +1,40 @@
+{
+  "description": "RC Engage Digital Standalone package with Annual charge term (NB)",
+  "chargeTerm": "Annual",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Engage Digital Standalone",
+      "packages": [
+        {
+          "name": "Engage Digital Standalone concurrent seat based (USD)",
+          "id": "591",
+          "version": "3",
+          "contract": "ED Standalone Contract",
+          "contractTerms": {
+            "renewalTerm": "36"
+          },
+          "productsDefault": [
+            {
+              "name": "Engage Digital concurrent seat, omni-channel",
+              "dataName": "SA_SEAT_5",
+              "group": "Services",
+              "subgroup": "Purchase",
+              "chargeTerm": "Annual",
+              "price": "1950.00",
+              "yourPrice": "1950.00",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

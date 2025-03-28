@@ -1,0 +1,42 @@
+[
+  {
+    "hierarchy": "Ignite Top Level",
+    "username": "ignitetopmaster@ringcentral.com",
+    "contactName": "Ignite Top Master",
+    "profile": "Admin",
+    "role": "Manager",
+    "accountName": "Ignite Inc.",
+    "partnerId": 90382,
+    "persona": "Corporate Admin - Full Access"
+  },
+  {
+    "hierarchy": "Master Level",
+    "username": "internalrcmaster@ringcentral.com",
+    "contactName": "Ignite Master Master Agent",
+    "profile": "Admin",
+    "role": "Manager",
+    "accountName": "Direct Partners - Upfront (B) - RingCentral",
+    "partnerId": null,
+    "persona": "Master Agent - Full Access"
+  },
+  {
+    "hierarchy": "Partner Level",
+    "username": "mastersubfull@ringcentral.com",
+    "contactName": "Ignite Master Sub - Full",
+    "profile": "Admin",
+    "role": "Manager",
+    "accountName": "Internal Master Sub - RingCentral",
+    "partnerId": null,
+    "persona": "Partner - Full Access"
+  },
+  {
+    "hierarchy": "Partner Level",
+    "username": "mastersublimited@ringcentral.com",
+    "contactName": "Ignite Master Sub - Limited",
+    "profile": "User",
+    "role": "User",
+    "accountName": "Internal Master Sub - RingCentral",
+    "partnerId": null,
+    "persona": "Partner - Limited Access"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "description": "RingCentral Video Pro Free (monthly, no contract) -> RingEX Core™ (monthly, no contract)",
+  "scenario": "ngbs(brand=1210,package=666v1,offerType=free,product=meetings)",
+  "billingId": "181715013",
+  "packageId": "182140013",
+  "rcUserId": "402521934061",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "RingCentral",
+  "businessIdentity": {
+    "id": "4",
+    "name": "RingCentral Inc."
+  },
+  "packageFolders": [
+    {
+      "name": "Meetings",
+      "packages": [
+        {
+          "name": "RingCentral Video Pro",
+          "id": "666",
+          "version": "1",
+          "contract": "None"
+        }
+      ]
+    }
+  ],
+  "packageFoldersUpgrade": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Core™",
+          "id": "1231005",
+          "version": "2",
+          "contract": "None"
+        }
+      ]
+    }
+  ]
+}

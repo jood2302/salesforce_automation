@@ -1,0 +1,18 @@
+{
+  "Status": "OK",
+  "StatusCode": 200,
+  "Data": {
+    "result": {
+      "availability": false,
+      "availabilityInfo": [
+        {
+          "requestedAreaCode": "520",
+          "requestedQty": 5000,
+          "availableQty": 666
+        }
+      ]
+    },
+    "SAFAS_SID": "064ec2c3149391a0a025e53ea8866c926db2d733f34e25c60ad2e25b88cd4547",
+    "id": null
+  }
+}

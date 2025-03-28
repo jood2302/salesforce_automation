@@ -1,0 +1,15 @@
+{
+  "Status": "OK",
+  "StatusCode": 200,
+  "Data": {
+    "error": {
+      "code": 1,
+      "message": "Requested package id and version are not supported by SAF.",
+      "data": {
+        "type": "saf_auxiliary_services\\SafasControllers\\Exceptions"
+      }
+    },
+    "SAFAS_SID": "3804389c5aab64d88663e44489f296e1e76b6ad47b646f43006e89ee6b268fbe",
+    "id": null
+  }
+}

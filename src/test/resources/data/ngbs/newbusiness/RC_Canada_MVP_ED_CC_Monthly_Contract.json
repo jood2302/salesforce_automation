@@ -1,0 +1,296 @@
+{
+  "description": "New Business RingCentral Canada with RingEX Advanced™, RingCentral Contact Center and Engage Digital packages with Monthly charge term and a Contract",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "CAD",
+  "billingCountry": "Canada",
+  "brandName": "RingCentral Canada",
+  "businessIdentity": {
+    "id": "5",
+    "name": "RingCentral Canada"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Advanced™",
+          "id": "1301005",
+          "version": "1",
+          "contract": "Office Contract",
+          "contractExtId": "Office_5_CA",
+          "contractTerms": {
+            "initialTerm": [
+              "36"
+            ],
+            "renewalTerm": "36"
+          },
+          "productsDefault": [
+            {
+              "name": "RingEX Advanced™ - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "CAD"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "CAD"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "CAD"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "CAD"
+            },
+            {
+              "name": "Compliance and Administrative Cost Recovery Fee",
+              "dataName": "LC_CRF_51",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "4.00",
+              "yourPrice": "4.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "e911 Service Fee",
+              "dataName": "LC_E911_52",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "1.00",
+              "yourPrice": "1.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "DigitalLine Unlimited Advanced",
+              "dataName": "LC_DL-UNL_50",
+              "serviceName": "Office",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "40.00",
+              "yourPrice": "26.00",
+              "quantity": 150,
+              "discount": 35,
+              "discountType": "%"
+            }
+          ],
+          "products": [
+            {
+              "name": "$13000 of international calling credit bundle",
+              "dataName": "LC_IB_360",
+              "group": "International",
+              "subgroup": "Bundles",
+              "chargeTerm": "Monthly",
+              "price": "10000.00",
+              "yourPrice": "10000.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Additional Local Number",
+              "dataName": "LC_ALN_38",
+              "group": "Add Ons",
+              "subgroup": "Numbers",
+              "chargeTerm": "Monthly",
+              "price": "4.99",
+              "yourPrice": "4.99",
+              "quantity": 10,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Polycom VVX 450 Business IP Phone - Rental",
+              "dataName": "LC_HDR_619",
+              "productName": "Polycom VVX450 Business IP Phone - Rental",
+              "group": "Devices",
+              "subgroup": "Rentals - Phones",
+              "chargeTerm": "Monthly",
+              "price": "11.50",
+              "yourPrice": "9.20",
+              "quantity": 40,
+              "discount": 20,
+              "discountType": "%"
+            },
+            {
+              "name": "Polycom Trio 8300 Conference Phone",
+              "dataName": "LC_HD_936",
+              "productName": "Polycom Trio 8300 Conference Phone",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "621.00",
+              "yourPrice": "621.00",
+              "quantity": 10,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Cisco CP8851 Gigabit Color Business Phone",
+              "dataName": "LC_HD_580",
+              "productName": "Cisco CP8851 Gigabit Color Business Phone",
+              "serviceName": "Office",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "369.00",
+              "yourPrice": "319.00",
+              "quantity": 100,
+              "discount": 50,
+              "discountType": "CAD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RingCentral Contact Center",
+      "packages": [
+        {
+          "name": "Premium Edition (3 ports) Named Seat (CAD)",
+          "id": "809",
+          "version": "3",
+          "contract": "RCCC Contract",
+          "productsDefault": [
+            {
+              "name": "Premium Edition Seat (3 ports)",
+              "dataName": "CC_RCCCSEAT_1",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Core Add-ons",
+              "subgroup": "Seat",
+              "chargeTerm": "Monthly",
+              "price": "177.00",
+              "yourPrice": "150.45",
+              "quantity": 10,
+              "discount": 15,
+              "discountType": "%"
+            }
+          ],
+          "products": [
+            {
+              "name": "International Calling Credit ($300)",
+              "dataName": "CC_ICINTCC300_130",
+              "serviceName": "RingCentral Contact Center",
+              "group": "Connectivity",
+              "subgroup": "Bundle",
+              "chargeTerm": "Monthly",
+              "price": "250.00",
+              "yourPrice": "250.00",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "Acqueon Professional Services Hours",
+              "dataName": "This product is kept in SFDC and doesn't have any 'dataName'",
+              "serviceName": "RingCentral Contact Center",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "One - Time",
+              "price": "250.00",
+              "yourPrice": "250.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engage Digital Standalone",
+      "packages": [
+        {
+          "name": "Engage Digital Standalone concurrent seat based (CAD)",
+          "id": "592",
+          "version": "2",
+          "contract": "ED Standalone Contract",
+          "products": [
+            {
+              "name": "Salesforce connector, per concurrent seat",
+              "comment": "Cannot set quantity in the QW; it should be the same as on the default license SA_SEAT_5",
+              "dataName": "SA_SFDCAPP_9",
+              "serviceName": "Engage Digital Standalone",
+              "group": "Add Ons",
+              "subgroup": "Extensions",
+              "chargeTerm": "One - Time",
+              "price": "25.00",
+              "yourPrice": "25.00",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "%"
+            },
+            {
+              "name": "Management fees for WhatsApp Business communications",
+              "dataName": "SA_MANFEESWHATSUP_12",
+              "serviceName": "Engage Digital Standalone",
+              "group": "Add Ons",
+              "subgroup": "Extensions",
+              "chargeTerm": "One - Time",
+              "price": "119.40",
+              "yourPrice": "79.60",
+              "quantity": 30,
+              "discount": 60,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "Engage Digital concurrent seat, omni-channel",
+              "dataName": "SA_SEAT_5",
+              "serviceName": "Engage Digital Standalone",
+              "productName": "Engage Digital seat for managing omni-channel",
+              "group": "Services",
+              "subgroup": "Purchase",
+              "chargeTerm": "Monthly",
+              "price": "175.50",
+              "yourPrice": "175.50",
+              "quantity": 3,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

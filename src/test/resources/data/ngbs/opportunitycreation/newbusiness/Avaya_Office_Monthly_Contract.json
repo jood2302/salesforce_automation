@@ -1,0 +1,23 @@
+{
+  "description": "ACO Standard package with Monthly charge term, with Contract, US Business Identity",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "USD",
+  "brandName": "Avaya Cloud Office",
+  "businessIdentity": {
+    "id": "20",
+    "name": "Avaya Cloud Office"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "Avaya Cloud Office Standard",
+          "id": "318",
+          "version": "2",
+          "contract": "Office Contract"
+        }
+      ]
+    }
+  ]
+}

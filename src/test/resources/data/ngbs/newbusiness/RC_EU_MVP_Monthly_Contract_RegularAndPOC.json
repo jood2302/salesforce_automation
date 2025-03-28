@@ -1,0 +1,128 @@
+{
+  "description": "RC EU RingEX Standard Regular package with Monthly charge term, with Contract and with 1 DL + 1 Phone and POC package",
+  "chargeTerm": "Monthly",
+  "currencyISOCode": "EUR",
+  "billingCountry": "France",
+  "brandName": "RingCentral EU",
+  "businessIdentity": {
+    "id": "1",
+    "name": "RingCentral, Ltd (France)"
+  },
+  "packageFolders": [
+    {
+      "name": "Office",
+      "packages": [
+        {
+          "name": "RingEX Standard",
+          "id": "1976",
+          "version": "2",
+          "contract": "Office Contract",
+          "products": [
+            {
+              "name": "Polycom VVX 450 Business IP Phone",
+              "dataName": "LC_HD_611",
+              "group": "Devices",
+              "subgroup": "Purchase - Phones",
+              "chargeTerm": "One - Time",
+              "price": "219.00",
+              "yourPrice": "219.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ],
+          "productsDefault": [
+            {
+              "name": "RingEX Standard - Subscription Fee",
+              "dataName": "LC_SC_29",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "EUR"
+            },
+            {
+              "name": "Main Local Number",
+              "dataName": "LC_MLN_31",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "EUR"
+            },
+            {
+              "name": "Main Local Fax Number",
+              "dataName": "LC_MLFN_45",
+              "group": "Main Numbers",
+              "subgroup": "All",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "EUR"
+            },
+            {
+              "name": "DigitalLine",
+              "dataName": "LC_DL_75",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "0.00",
+              "yourPrice": "0.00",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "EUR"
+            },
+            {
+              "name": "DigitalLine Unlimited Standard",
+              "dataName": "LC_DL-UNL_50",
+              "group": "Services",
+              "subgroup": "Main",
+              "chargeTerm": "Monthly",
+              "price": "25.99",
+              "yourPrice": "25.99",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%",
+              "priceRater": [
+                {
+                  "minimumBorder": "100",
+                  "maximumBorder": "99999",
+                  "raterPrice": "17.99"
+                }
+              ]
+            }
+          ],
+          "productsOther": [
+            {
+              "name": "Contact Center: Advanced Edition Seat (2 ports)",
+              "comment": "This product is kept in SFDC and doesn't have any 'dataName'",
+              "group": "",
+              "subgroup": "",
+              "chargeTerm": "Monthly - Contract",
+              "price": "129.99",
+              "yourPrice": "129.99",
+              "quantity": 1,
+              "discount": 0,
+              "discountType": "%"
+            }
+          ]
+        },
+        {
+          "name": "RingEX Standard",
+          "id": "160",
+          "version": "1",
+          "type": "POC",
+          "contract": ""
+        }
+      ]
+    }
+  ]
+}

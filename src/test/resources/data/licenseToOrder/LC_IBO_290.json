@@ -1,0 +1,21 @@
+{
+  "catalogId": "LC_DLI_282",
+  "comment": "Global DigitalLine parent license; set qty to 1-50000 for Global LATAM here",
+  "billingCycleDuration": "Monthly",
+  "qty": 1,
+  "subItems": [
+    {
+      "catalogId": "LC_IBO_290",
+      "comment": "Global LATAM license to be ordered",
+      "billingCycleDuration": "Monthly",
+      "qty": 1,
+      "subItems": [
+        {
+          "catalogId": "LC_IVN_291",
+          "billingCycleDuration": "Monthly",
+          "qty": 1
+        }
+      ]
+    }
+  ]
+}
